@@ -3,3 +3,5 @@
 # this works pretty well:
 egrep 'commit.*tag' git-log.txt
 echo $?
+egrep 'commit.*tag:' git-log.txt
+echo $?
