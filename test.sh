@@ -17,3 +17,12 @@ egrep 'commit.*tag:' git-log-should-not-match.txt
 echo $? 
 egrep -v 'commit.*tag:' git-log-should-not-match.txt
 echo $?
+
+egrep '\+.*you' plus-or-minus.txt
+echo $?
+egrep -v '\+.*you' plus-or-minus.txt
+echo $?
+egrep '\-.*game' plus-or-minus.txt
+echo $?
+egrep -v '\-.*game' plus-or-minus.txt
+echo $?
