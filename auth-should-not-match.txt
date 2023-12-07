@@ -1,0 +1,1012 @@
+Nov  7 20:10:43 scc-it120 sshd[152638]: Failed password for root from 65.0.107.119 port 44852 ssh2
+Nov  7 20:10:45 scc-it120 sshd[152644]: Failed password for ubuntu from 140.238.182.187 port 59642 ssh2
+Nov  7 20:10:45 scc-it120 sshd[152638]: Connection closed by authenticating user root 65.0.107.119 port 44852 [preauth]
+Nov  7 20:10:49 scc-it120 sshd[152644]: Failed password for ubuntu from 140.238.182.187 port 59642 ssh2
+Nov  7 20:10:52 scc-it120 sshd[152644]: Failed password for ubuntu from 140.238.182.187 port 59642 ssh2
+Nov  7 20:10:54 scc-it120 sshd[152644]: error: maximum authentication attempts exceeded for ubuntu from 140.238.182.187 port 59642 ssh2 [preauth]
+Nov  7 20:10:54 scc-it120 sshd[152644]: Disconnecting authenticating user ubuntu 140.238.182.187 port 59642: Too many authentication failures [preauth]
+Nov  7 20:10:54 scc-it120 sshd[152644]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=140.238.182.187  user=ubuntu
+Nov  7 20:10:54 scc-it120 sshd[152644]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  7 20:10:55 scc-it120 sshd[152647]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=140.238.182.187  user=ubuntu
+Nov  7 20:10:57 scc-it120 sshd[152647]: Failed password for ubuntu from 140.238.182.187 port 51556 ssh2
+Nov  7 20:11:14 scc-it120 sshd[152647]: message repeated 5 times: [ Failed password for ubuntu from 140.238.182.187 port 51556 ssh2]
+Nov  7 20:11:14 scc-it120 sshd[152647]: error: maximum authentication attempts exceeded for ubuntu from 140.238.182.187 port 51556 ssh2 [preauth]
+Nov  7 20:11:14 scc-it120 sshd[152647]: Disconnecting authenticating user ubuntu 140.238.182.187 port 51556: Too many authentication failures [preauth]
+Nov  7 20:11:14 scc-it120 sshd[152647]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=140.238.182.187  user=ubuntu
+Nov  7 20:11:14 scc-it120 sshd[152647]: PAM service(sshd) ignoring max retries; 6 > 3
+Nov  7 20:11:16 scc-it120 sshd[152650]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=140.238.182.187  user=ubuntu
+Nov  7 20:11:18 scc-it120 sshd[152650]: Failed password for ubuntu from 140.238.182.187 port 52226 ssh2
+Nov  7 20:11:24 scc-it120 sshd[152650]: message repeated 2 times: [ Failed password for ubuntu from 140.238.182.187 port 52226 ssh2]
+Nov  7 20:11:25 scc-it120 sshd[152650]: Received disconnect from 140.238.182.187 port 52226:11: disconnected by user [preauth]
+Nov  7 20:11:25 scc-it120 sshd[152650]: Disconnected from authenticating user ubuntu 140.238.182.187 port 52226 [preauth]
+Nov  7 20:11:25 scc-it120 sshd[152650]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=140.238.182.187  user=ubuntu
+Nov  7 20:11:26 scc-it120 sshd[152653]: Invalid user pi from 140.238.182.187 port 46514
+Nov  7 20:11:26 scc-it120 sshd[152653]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:11:26 scc-it120 sshd[152653]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=140.238.182.187
+Nov  7 20:11:28 scc-it120 sshd[152653]: Failed password for invalid user pi from 140.238.182.187 port 46514 ssh2
+Nov  7 20:11:30 scc-it120 sshd[152653]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:11:32 scc-it120 sshd[152653]: Failed password for invalid user pi from 140.238.182.187 port 46514 ssh2
+Nov  7 20:11:32 scc-it120 sshd[152653]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:11:34 scc-it120 sshd[152653]: Failed password for invalid user pi from 140.238.182.187 port 46514 ssh2
+Nov  7 20:11:36 scc-it120 sshd[152653]: Received disconnect from 140.238.182.187 port 46514:11: disconnected by user [preauth]
+Nov  7 20:11:36 scc-it120 sshd[152653]: Disconnected from invalid user pi 140.238.182.187 port 46514 [preauth]
+Nov  7 20:11:36 scc-it120 sshd[152653]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=140.238.182.187
+Nov  7 20:11:37 scc-it120 sshd[152655]: Invalid user baikal from 140.238.182.187 port 59374
+Nov  7 20:11:37 scc-it120 sshd[152655]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:11:37 scc-it120 sshd[152655]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=140.238.182.187
+Nov  7 20:11:40 scc-it120 sshd[152655]: Failed password for invalid user baikal from 140.238.182.187 port 59374 ssh2
+Nov  7 20:11:40 scc-it120 sshd[152655]: Received disconnect from 140.238.182.187 port 59374:11: disconnected by user [preauth]
+Nov  7 20:11:40 scc-it120 sshd[152655]: Disconnected from invalid user baikal 140.238.182.187 port 59374 [preauth]
+Nov  7 20:12:14 scc-it120 sshd[152657]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:12:17 scc-it120 sshd[152657]: Failed password for root from 65.0.107.119 port 41692 ssh2
+Nov  7 20:12:21 scc-it120 sshd[152657]: Connection closed by authenticating user root 65.0.107.119 port 41692 [preauth]
+Nov  7 20:12:40 scc-it120 sshd[152663]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:12:43 scc-it120 sshd[152663]: Failed password for root from 65.0.107.119 port 57722 ssh2
+Nov  7 20:12:51 scc-it120 sshd[152663]: Connection closed by authenticating user root 65.0.107.119 port 57722 [preauth]
+Nov  7 20:13:17 scc-it120 sshd[152667]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:13:19 scc-it120 sshd[152667]: Failed password for root from 65.0.107.119 port 47718 ssh2
+Nov  7 20:13:21 scc-it120 sshd[152670]: Invalid user mongo from 106.51.87.247 port 52603
+Nov  7 20:13:21 scc-it120 sshd[152670]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:13:21 scc-it120 sshd[152670]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:13:22 scc-it120 sshd[152670]: Failed password for invalid user mongo from 106.51.87.247 port 52603 ssh2
+Nov  7 20:13:23 scc-it120 sshd[152670]: Received disconnect from 106.51.87.247 port 52603:11: Bye Bye [preauth]
+Nov  7 20:13:23 scc-it120 sshd[152670]: Disconnected from invalid user mongo 106.51.87.247 port 52603 [preauth]
+Nov  7 20:13:27 scc-it120 sshd[152667]: Connection closed by authenticating user root 65.0.107.119 port 47718 [preauth]
+Nov  7 20:13:54 scc-it120 sshd[152673]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:13:56 scc-it120 sshd[152673]: Failed password for root from 65.0.107.119 port 38416 ssh2
+Nov  7 20:13:57 scc-it120 sshd[152676]: Invalid user resto from 157.245.248.106 port 53938
+Nov  7 20:13:57 scc-it120 sshd[152676]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:13:57 scc-it120 sshd[152676]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:13:59 scc-it120 sshd[152676]: Failed password for invalid user resto from 157.245.248.106 port 53938 ssh2
+Nov  7 20:14:00 scc-it120 sshd[152676]: Received disconnect from 157.245.248.106 port 53938:11: Bye Bye [preauth]
+Nov  7 20:14:00 scc-it120 sshd[152676]: Disconnected from invalid user resto 157.245.248.106 port 53938 [preauth]
+Nov  7 20:14:09 scc-it120 sshd[152673]: Connection closed by authenticating user root 65.0.107.119 port 38416 [preauth]
+Nov  7 20:14:47 scc-it120 sshd[152682]: Invalid user tester from 106.51.87.247 port 39057
+Nov  7 20:14:47 scc-it120 sshd[152682]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:14:47 scc-it120 sshd[152682]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:14:48 scc-it120 sshd[152679]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:14:49 scc-it120 sshd[152682]: Failed password for invalid user tester from 106.51.87.247 port 39057 ssh2
+Nov  7 20:14:50 scc-it120 sshd[152679]: Failed password for root from 65.0.107.119 port 49024 ssh2
+Nov  7 20:14:50 scc-it120 sshd[152682]: Received disconnect from 106.51.87.247 port 39057:11: Bye Bye [preauth]
+Nov  7 20:14:50 scc-it120 sshd[152682]: Disconnected from invalid user tester 106.51.87.247 port 39057 [preauth]
+Nov  7 20:15:01 scc-it120 CRON[152685]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  7 20:15:01 scc-it120 CRON[152685]: pam_unix(cron:session): session closed for user root
+Nov  7 20:15:02 scc-it120 sshd[152679]: Connection closed by authenticating user root 65.0.107.119 port 49024 [preauth]
+Nov  7 20:15:22 scc-it120 sshd[152688]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:15:24 scc-it120 sshd[152688]: Failed password for root from 65.0.107.119 port 34692 ssh2
+Nov  7 20:15:25 scc-it120 sshd[152688]: Connection closed by authenticating user root 65.0.107.119 port 34692 [preauth]
+Nov  7 20:15:27 scc-it120 sshd[152693]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.197  user=root
+Nov  7 20:15:28 scc-it120 sshd[152693]: Failed password for root from 180.101.88.197 port 12113 ssh2
+Nov  7 20:15:33 scc-it120 sshd[152693]: message repeated 2 times: [ Failed password for root from 180.101.88.197 port 12113 ssh2]
+Nov  7 20:15:34 scc-it120 sshd[152693]: Received disconnect from 180.101.88.197 port 12113:11:  [preauth]
+Nov  7 20:15:34 scc-it120 sshd[152693]: Disconnected from authenticating user root 180.101.88.197 port 12113 [preauth]
+Nov  7 20:15:34 scc-it120 sshd[152693]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.197  user=root
+Nov  7 20:15:37 scc-it120 sshd[152695]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.197  user=root
+Nov  7 20:15:39 scc-it120 sshd[152695]: Failed password for root from 180.101.88.197 port 18046 ssh2
+Nov  7 20:15:44 scc-it120 sshd[152695]: message repeated 2 times: [ Failed password for root from 180.101.88.197 port 18046 ssh2]
+Nov  7 20:15:44 scc-it120 sshd[152695]: Received disconnect from 180.101.88.197 port 18046:11:  [preauth]
+Nov  7 20:15:44 scc-it120 sshd[152695]: Disconnected from authenticating user root 180.101.88.197 port 18046 [preauth]
+Nov  7 20:15:44 scc-it120 sshd[152695]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.197  user=root
+Nov  7 20:15:46 scc-it120 sshd[152697]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.197  user=root
+Nov  7 20:15:48 scc-it120 sshd[152697]: Failed password for root from 180.101.88.197 port 32289 ssh2
+Nov  7 20:15:53 scc-it120 sshd[152697]: message repeated 2 times: [ Failed password for root from 180.101.88.197 port 32289 ssh2]
+Nov  7 20:15:53 scc-it120 sshd[152697]: Received disconnect from 180.101.88.197 port 32289:11:  [preauth]
+Nov  7 20:15:53 scc-it120 sshd[152697]: Disconnected from authenticating user root 180.101.88.197 port 32289 [preauth]
+Nov  7 20:15:53 scc-it120 sshd[152697]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.197  user=root
+Nov  7 20:16:14 scc-it120 sshd[152703]: Invalid user chris from 106.51.87.247 port 53747
+Nov  7 20:16:14 scc-it120 sshd[152703]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:16:14 scc-it120 sshd[152703]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:16:16 scc-it120 sshd[152703]: Failed password for invalid user chris from 106.51.87.247 port 53747 ssh2
+Nov  7 20:16:17 scc-it120 sshd[152703]: Received disconnect from 106.51.87.247 port 53747:11: Bye Bye [preauth]
+Nov  7 20:16:17 scc-it120 sshd[152703]: Disconnected from invalid user chris 106.51.87.247 port 53747 [preauth]
+Nov  7 20:16:25 scc-it120 sshd[152700]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:16:25 scc-it120 sshd[152706]: Invalid user user01 from 157.245.248.106 port 48348
+Nov  7 20:16:25 scc-it120 sshd[152706]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:16:25 scc-it120 sshd[152706]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:16:27 scc-it120 sshd[152700]: Failed password for root from 65.0.107.119 port 34558 ssh2
+Nov  7 20:16:27 scc-it120 sshd[152706]: Failed password for invalid user user01 from 157.245.248.106 port 48348 ssh2
+Nov  7 20:16:27 scc-it120 sshd[152706]: Received disconnect from 157.245.248.106 port 48348:11: Bye Bye [preauth]
+Nov  7 20:16:27 scc-it120 sshd[152706]: Disconnected from invalid user user01 157.245.248.106 port 48348 [preauth]
+Nov  7 20:16:30 scc-it120 sshd[152700]: Connection closed by authenticating user root 65.0.107.119 port 34558 [preauth]
+Nov  7 20:17:01 scc-it120 CRON[152711]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  7 20:17:01 scc-it120 CRON[152711]: pam_unix(cron:session): session closed for user root
+Nov  7 20:17:03 scc-it120 sshd[152708]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:17:05 scc-it120 sshd[152708]: Failed password for root from 65.0.107.119 port 37494 ssh2
+Nov  7 20:17:10 scc-it120 sshd[152708]: Connection closed by authenticating user root 65.0.107.119 port 37494 [preauth]
+Nov  7 20:17:13 scc-it120 sshd[152691]: fatal: Timeout before authentication for 218.92.0.27 port 62146
+Nov  7 20:17:37 scc-it120 sshd[152719]: Invalid user user1 from 106.51.87.247 port 40203
+Nov  7 20:17:37 scc-it120 sshd[152719]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:17:37 scc-it120 sshd[152719]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:17:38 scc-it120 sshd[152715]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:17:39 scc-it120 sshd[152719]: Failed password for invalid user user1 from 106.51.87.247 port 40203 ssh2
+Nov  7 20:17:39 scc-it120 sshd[152719]: Received disconnect from 106.51.87.247 port 40203:11: Bye Bye [preauth]
+Nov  7 20:17:39 scc-it120 sshd[152719]: Disconnected from invalid user user1 106.51.87.247 port 40203 [preauth]
+Nov  7 20:17:40 scc-it120 sshd[152715]: Failed password for root from 65.0.107.119 port 56416 ssh2
+Nov  7 20:17:46 scc-it120 sshd[152715]: Connection closed by authenticating user root 65.0.107.119 port 56416 [preauth]
+Nov  7 20:18:36 scc-it120 sshd[152723]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:18:39 scc-it120 sshd[152723]: Failed password for root from 65.0.107.119 port 44872 ssh2
+Nov  7 20:18:44 scc-it120 sshd[152723]: Connection closed by authenticating user root 65.0.107.119 port 44872 [preauth]
+Nov  7 20:19:03 scc-it120 sshd[152729]: Invalid user ts3 from 106.51.87.247 port 54893
+Nov  7 20:19:03 scc-it120 sshd[152729]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:19:03 scc-it120 sshd[152729]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:19:05 scc-it120 sshd[152729]: Failed password for invalid user ts3 from 106.51.87.247 port 54893 ssh2
+Nov  7 20:19:07 scc-it120 sshd[152729]: Received disconnect from 106.51.87.247 port 54893:11: Bye Bye [preauth]
+Nov  7 20:19:07 scc-it120 sshd[152729]: Disconnected from invalid user ts3 106.51.87.247 port 54893 [preauth]
+Nov  7 20:19:23 scc-it120 sshd[152727]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:19:25 scc-it120 sshd[152727]: Failed password for root from 65.0.107.119 port 51716 ssh2
+Nov  7 20:19:28 scc-it120 sshd[152727]: Connection closed by authenticating user root 65.0.107.119 port 51716 [preauth]
+Nov  7 20:19:52 scc-it120 sshd[152736]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.36.172.123  user=root
+Nov  7 20:19:55 scc-it120 sshd[152736]: Failed password for root from 185.36.172.123 port 52072 ssh2
+Nov  7 20:19:57 scc-it120 sshd[152736]: Connection closed by authenticating user root 185.36.172.123 port 52072 [preauth]
+Nov  7 20:20:04 scc-it120 sshd[152733]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:20:06 scc-it120 sshd[152733]: Failed password for root from 65.0.107.119 port 57704 ssh2
+Nov  7 20:20:14 scc-it120 sshd[152733]: Connection closed by authenticating user root 65.0.107.119 port 57704 [preauth]
+Nov  7 20:20:26 scc-it120 sshd[152741]: Invalid user mongo from 106.51.87.247 port 41347
+Nov  7 20:20:26 scc-it120 sshd[152741]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:20:26 scc-it120 sshd[152741]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:20:28 scc-it120 sshd[152741]: Failed password for invalid user mongo from 106.51.87.247 port 41347 ssh2
+Nov  7 20:20:28 scc-it120 sshd[152741]: Received disconnect from 106.51.87.247 port 41347:11: Bye Bye [preauth]
+Nov  7 20:20:28 scc-it120 sshd[152741]: Disconnected from invalid user mongo 106.51.87.247 port 41347 [preauth]
+Nov  7 20:20:43 scc-it120 sshd[152739]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:20:44 scc-it120 sshd[152739]: Failed password for root from 65.0.107.119 port 52408 ssh2
+Nov  7 20:20:51 scc-it120 sshd[152739]: Connection closed by authenticating user root 65.0.107.119 port 52408 [preauth]
+Nov  7 20:21:00 scc-it120 sshd[152747]: Invalid user pramod from 157.245.248.106 port 55604
+Nov  7 20:21:00 scc-it120 sshd[152747]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:21:00 scc-it120 sshd[152747]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:21:03 scc-it120 sshd[152747]: Failed password for invalid user pramod from 157.245.248.106 port 55604 ssh2
+Nov  7 20:21:03 scc-it120 sshd[152747]: Received disconnect from 157.245.248.106 port 55604:11: Bye Bye [preauth]
+Nov  7 20:21:03 scc-it120 sshd[152747]: Disconnected from invalid user pramod 157.245.248.106 port 55604 [preauth]
+Nov  7 20:21:03 scc-it120 sshd[152749]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.198  user=root
+Nov  7 20:21:05 scc-it120 sshd[152749]: Failed password for root from 180.101.88.198 port 12516 ssh2
+Nov  7 20:21:09 scc-it120 sshd[152749]: message repeated 2 times: [ Failed password for root from 180.101.88.198 port 12516 ssh2]
+Nov  7 20:21:10 scc-it120 sshd[152749]: Received disconnect from 180.101.88.198 port 12516:11:  [preauth]
+Nov  7 20:21:10 scc-it120 sshd[152749]: Disconnected from authenticating user root 180.101.88.198 port 12516 [preauth]
+Nov  7 20:21:10 scc-it120 sshd[152749]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.198  user=root
+Nov  7 20:21:12 scc-it120 sshd[152753]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.198  user=root
+Nov  7 20:21:15 scc-it120 sshd[152753]: Failed password for root from 180.101.88.198 port 24487 ssh2
+Nov  7 20:21:19 scc-it120 sshd[152753]: Failed password for root from 180.101.88.198 port 24487 ssh2
+Nov  7 20:21:20 scc-it120 sshd[152745]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:21:22 scc-it120 sshd[152745]: Failed password for root from 65.0.107.119 port 34098 ssh2
+Nov  7 20:21:23 scc-it120 sshd[152753]: Failed password for root from 180.101.88.198 port 24487 ssh2
+Nov  7 20:21:24 scc-it120 sshd[152753]: Received disconnect from 180.101.88.198 port 24487:11:  [preauth]
+Nov  7 20:21:24 scc-it120 sshd[152753]: Disconnected from authenticating user root 180.101.88.198 port 24487 [preauth]
+Nov  7 20:21:24 scc-it120 sshd[152753]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.198  user=root
+Nov  7 20:21:26 scc-it120 sshd[152756]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.198  user=root
+Nov  7 20:21:27 scc-it120 sshd[152745]: Connection closed by authenticating user root 65.0.107.119 port 34098 [preauth]
+Nov  7 20:21:28 scc-it120 sshd[152756]: Failed password for root from 180.101.88.198 port 13503 ssh2
+Nov  7 20:21:33 scc-it120 sshd[152756]: message repeated 2 times: [ Failed password for root from 180.101.88.198 port 13503 ssh2]
+Nov  7 20:21:34 scc-it120 sshd[152756]: Received disconnect from 180.101.88.198 port 13503:11:  [preauth]
+Nov  7 20:21:34 scc-it120 sshd[152756]: Disconnected from authenticating user root 180.101.88.198 port 13503 [preauth]
+Nov  7 20:21:34 scc-it120 sshd[152756]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=180.101.88.198  user=root
+Nov  7 20:21:49 scc-it120 sshd[152761]: Invalid user Nicole from 106.51.87.247 port 56034
+Nov  7 20:21:49 scc-it120 sshd[152761]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:21:49 scc-it120 sshd[152761]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:21:50 scc-it120 sshd[152761]: Failed password for invalid user Nicole from 106.51.87.247 port 56034 ssh2
+Nov  7 20:21:51 scc-it120 sshd[152761]: Received disconnect from 106.51.87.247 port 56034:11: Bye Bye [preauth]
+Nov  7 20:21:51 scc-it120 sshd[152761]: Disconnected from invalid user Nicole 106.51.87.247 port 56034 [preauth]
+Nov  7 20:22:04 scc-it120 sshd[152758]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:22:05 scc-it120 sshd[152758]: Failed password for root from 65.0.107.119 port 41740 ssh2
+Nov  7 20:22:12 scc-it120 sshd[152758]: Connection closed by authenticating user root 65.0.107.119 port 41740 [preauth]
+Nov  7 20:22:50 scc-it120 sshd[152765]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:22:52 scc-it120 sshd[152765]: Failed password for root from 65.0.107.119 port 52176 ssh2
+Nov  7 20:22:55 scc-it120 sshd[152765]: Connection closed by authenticating user root 65.0.107.119 port 52176 [preauth]
+Nov  7 20:23:12 scc-it120 sshd[152773]: Invalid user tinkerware from 106.51.87.247 port 42488
+Nov  7 20:23:12 scc-it120 sshd[152773]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:23:12 scc-it120 sshd[152773]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:23:12 scc-it120 sshd[152775]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=85.209.11.227  user=root
+Nov  7 20:23:14 scc-it120 sshd[152773]: Failed password for invalid user tinkerware from 106.51.87.247 port 42488 ssh2
+Nov  7 20:23:15 scc-it120 sshd[152775]: Failed password for root from 85.209.11.227 port 11181 ssh2
+Nov  7 20:23:16 scc-it120 sshd[152773]: Received disconnect from 106.51.87.247 port 42488:11: Bye Bye [preauth]
+Nov  7 20:23:16 scc-it120 sshd[152773]: Disconnected from invalid user tinkerware 106.51.87.247 port 42488 [preauth]
+Nov  7 20:23:17 scc-it120 sshd[152777]: Invalid user test from 157.245.248.106 port 59652
+Nov  7 20:23:17 scc-it120 sshd[152777]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:23:17 scc-it120 sshd[152777]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:23:18 scc-it120 sshd[152775]: Connection reset by authenticating user root 85.209.11.227 port 11181 [preauth]
+Nov  7 20:23:19 scc-it120 sshd[152777]: Failed password for invalid user test from 157.245.248.106 port 59652 ssh2
+Nov  7 20:23:20 scc-it120 sshd[152777]: Received disconnect from 157.245.248.106 port 59652:11: Bye Bye [preauth]
+Nov  7 20:23:20 scc-it120 sshd[152777]: Disconnected from invalid user test 157.245.248.106 port 59652 [preauth]
+Nov  7 20:23:23 scc-it120 sshd[152770]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:23:25 scc-it120 sshd[152770]: Failed password for root from 65.0.107.119 port 52424 ssh2
+Nov  7 20:23:31 scc-it120 sshd[152770]: Connection closed by authenticating user root 65.0.107.119 port 52424 [preauth]
+Nov  7 20:23:50 scc-it120 sshd[152780]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:23:53 scc-it120 sshd[152780]: Failed password for root from 65.0.107.119 port 44676 ssh2
+Nov  7 20:24:05 scc-it120 sshd[152780]: Connection closed by authenticating user root 65.0.107.119 port 44676 [preauth]
+Nov  7 20:24:35 scc-it120 sshd[152784]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:24:37 scc-it120 sshd[152784]: Failed password for root from 65.0.107.119 port 60692 ssh2
+Nov  7 20:24:38 scc-it120 sshd[152787]: Invalid user vboxuser from 106.51.87.247 port 57176
+Nov  7 20:24:38 scc-it120 sshd[152787]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:24:38 scc-it120 sshd[152787]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:24:40 scc-it120 sshd[152787]: Failed password for invalid user vboxuser from 106.51.87.247 port 57176 ssh2
+Nov  7 20:24:41 scc-it120 sshd[152787]: Received disconnect from 106.51.87.247 port 57176:11: Bye Bye [preauth]
+Nov  7 20:24:41 scc-it120 sshd[152787]: Disconnected from invalid user vboxuser 106.51.87.247 port 57176 [preauth]
+Nov  7 20:24:42 scc-it120 sshd[152784]: Connection closed by authenticating user root 65.0.107.119 port 60692 [preauth]
+Nov  7 20:25:01 scc-it120 CRON[152792]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  7 20:25:01 scc-it120 CRON[152792]: pam_unix(cron:session): session closed for user root
+Nov  7 20:25:22 scc-it120 sshd[152789]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:25:24 scc-it120 sshd[152789]: Failed password for root from 65.0.107.119 port 50016 ssh2
+Nov  7 20:25:30 scc-it120 sshd[152789]: Connection closed by authenticating user root 65.0.107.119 port 50016 [preauth]
+Nov  7 20:25:56 scc-it120 sshd[152797]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:25:58 scc-it120 sshd[152797]: Failed password for root from 65.0.107.119 port 44682 ssh2
+Nov  7 20:26:00 scc-it120 sshd[152797]: Connection closed by authenticating user root 65.0.107.119 port 44682 [preauth]
+Nov  7 20:26:00 scc-it120 sshd[152462]: pam_unix(sshd:session): session closed for user ada
+Nov  7 20:26:00 scc-it120 systemd-logind[577]: Session 1598 logged out. Waiting for processes to exit.
+Nov  7 20:26:00 scc-it120 systemd-logind[577]: Removed session 1598.
+Nov  7 20:26:03 scc-it120 sshd[152805]: Invalid user redhat from 106.51.87.247 port 43631
+Nov  7 20:26:03 scc-it120 sshd[152805]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:26:03 scc-it120 sshd[152805]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:26:05 scc-it120 sshd[152805]: Failed password for invalid user redhat from 106.51.87.247 port 43631 ssh2
+Nov  7 20:26:07 scc-it120 sshd[152805]: Received disconnect from 106.51.87.247 port 43631:11: Bye Bye [preauth]
+Nov  7 20:26:07 scc-it120 sshd[152805]: Disconnected from invalid user redhat 106.51.87.247 port 43631 [preauth]
+Nov  7 20:26:15 scc-it120 sshd[152811]: Invalid user dtluu from 45.95.146.121 port 58980
+Nov  7 20:26:15 scc-it120 sshd[152811]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:26:15 scc-it120 sshd[152811]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.95.146.121
+Nov  7 20:26:17 scc-it120 sshd[152811]: Failed password for invalid user dtluu from 45.95.146.121 port 58980 ssh2
+Nov  7 20:26:19 scc-it120 sshd[152811]: Connection closed by invalid user dtluu 45.95.146.121 port 58980 [preauth]
+Nov  7 20:26:35 scc-it120 sshd[152807]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:26:37 scc-it120 sshd[152807]: Failed password for root from 65.0.107.119 port 44210 ssh2
+Nov  7 20:26:42 scc-it120 sshd[152807]: Connection closed by authenticating user root 65.0.107.119 port 44210 [preauth]
+Nov  7 20:27:27 scc-it120 sshd[152814]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:27:28 scc-it120 sshd[152814]: Failed password for root from 65.0.107.119 port 54734 ssh2
+Nov  7 20:27:29 scc-it120 sshd[152819]: Invalid user mhlee from 106.51.87.247 port 58318
+Nov  7 20:27:29 scc-it120 sshd[152819]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:27:29 scc-it120 sshd[152819]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:27:31 scc-it120 sshd[152819]: Failed password for invalid user mhlee from 106.51.87.247 port 58318 ssh2
+Nov  7 20:27:32 scc-it120 sshd[152814]: Connection closed by authenticating user root 65.0.107.119 port 54734 [preauth]
+Nov  7 20:27:34 scc-it120 sshd[152819]: Received disconnect from 106.51.87.247 port 58318:11: Bye Bye [preauth]
+Nov  7 20:27:34 scc-it120 sshd[152819]: Disconnected from invalid user mhlee 106.51.87.247 port 58318 [preauth]
+Nov  7 20:28:02 scc-it120 sshd[152826]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106  user=postgres
+Nov  7 20:28:04 scc-it120 sshd[152826]: Failed password for postgres from 157.245.248.106 port 54442 ssh2
+Nov  7 20:28:04 scc-it120 sshd[152826]: Received disconnect from 157.245.248.106 port 54442:11: Bye Bye [preauth]
+Nov  7 20:28:04 scc-it120 sshd[152826]: Disconnected from authenticating user postgres 157.245.248.106 port 54442 [preauth]
+Nov  7 20:28:18 scc-it120 sshd[152822]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:28:20 scc-it120 sshd[152822]: Failed password for root from 65.0.107.119 port 54090 ssh2
+Nov  7 20:28:28 scc-it120 sshd[152822]: Connection closed by authenticating user root 65.0.107.119 port 54090 [preauth]
+Nov  7 20:28:55 scc-it120 sshd[152833]: Invalid user admin from 106.51.87.247 port 44773
+Nov  7 20:28:55 scc-it120 sshd[152833]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:28:55 scc-it120 sshd[152833]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:28:58 scc-it120 sshd[152833]: Failed password for invalid user admin from 106.51.87.247 port 44773 ssh2
+Nov  7 20:28:58 scc-it120 sshd[152830]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:29:00 scc-it120 sshd[152833]: Received disconnect from 106.51.87.247 port 44773:11: Bye Bye [preauth]
+Nov  7 20:29:00 scc-it120 sshd[152833]: Disconnected from invalid user admin 106.51.87.247 port 44773 [preauth]
+Nov  7 20:29:00 scc-it120 sshd[152830]: Failed password for root from 65.0.107.119 port 47218 ssh2
+Nov  7 20:29:06 scc-it120 sshd[152830]: Connection closed by authenticating user root 65.0.107.119 port 47218 [preauth]
+Nov  7 20:29:46 scc-it120 sshd[152836]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:29:48 scc-it120 sshd[152836]: Failed password for root from 65.0.107.119 port 59254 ssh2
+Nov  7 20:29:55 scc-it120 sshd[152836]: Connection closed by authenticating user root 65.0.107.119 port 59254 [preauth]
+Nov  7 20:30:24 scc-it120 sshd[152843]: Invalid user tomcat from 106.51.87.247 port 59461
+Nov  7 20:30:24 scc-it120 sshd[152843]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:30:24 scc-it120 sshd[152843]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:30:25 scc-it120 sshd[152840]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:30:27 scc-it120 sshd[152843]: Failed password for invalid user tomcat from 106.51.87.247 port 59461 ssh2
+Nov  7 20:30:27 scc-it120 sshd[152843]: Received disconnect from 106.51.87.247 port 59461:11: Bye Bye [preauth]
+Nov  7 20:30:27 scc-it120 sshd[152843]: Disconnected from invalid user tomcat 106.51.87.247 port 59461 [preauth]
+Nov  7 20:30:28 scc-it120 sshd[152840]: Failed password for root from 65.0.107.119 port 41456 ssh2
+Nov  7 20:30:34 scc-it120 sshd[152840]: Connection closed by authenticating user root 65.0.107.119 port 41456 [preauth]
+Nov  7 20:31:09 scc-it120 sshd[152846]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:31:11 scc-it120 sshd[152846]: Failed password for root from 65.0.107.119 port 52490 ssh2
+Nov  7 20:31:14 scc-it120 sshd[152846]: Connection closed by authenticating user root 65.0.107.119 port 52490 [preauth]
+Nov  7 20:31:47 scc-it120 sshd[152850]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:31:49 scc-it120 sshd[152850]: Failed password for root from 65.0.107.119 port 55560 ssh2
+Nov  7 20:31:53 scc-it120 sshd[152854]: Invalid user jenkins from 106.51.87.247 port 45917
+Nov  7 20:31:53 scc-it120 sshd[152854]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:31:53 scc-it120 sshd[152854]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:31:55 scc-it120 sshd[152854]: Failed password for invalid user jenkins from 106.51.87.247 port 45917 ssh2
+Nov  7 20:31:55 scc-it120 sshd[152850]: Connection closed by authenticating user root 65.0.107.119 port 55560 [preauth]
+Nov  7 20:31:56 scc-it120 sshd[152854]: Received disconnect from 106.51.87.247 port 45917:11: Bye Bye [preauth]
+Nov  7 20:31:56 scc-it120 sshd[152854]: Disconnected from invalid user jenkins 106.51.87.247 port 45917 [preauth]
+Nov  7 20:32:22 scc-it120 sshd[152857]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:32:24 scc-it120 sshd[152857]: Failed password for root from 65.0.107.119 port 58640 ssh2
+Nov  7 20:32:29 scc-it120 sshd[152857]: Connection closed by authenticating user root 65.0.107.119 port 58640 [preauth]
+Nov  7 20:32:39 scc-it120 sshd[152863]: Invalid user admin from 157.245.248.106 port 51474
+Nov  7 20:32:39 scc-it120 sshd[152863]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:32:39 scc-it120 sshd[152863]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:32:41 scc-it120 sshd[152863]: Failed password for invalid user admin from 157.245.248.106 port 51474 ssh2
+Nov  7 20:32:41 scc-it120 sshd[152863]: Received disconnect from 157.245.248.106 port 51474:11: Bye Bye [preauth]
+Nov  7 20:32:41 scc-it120 sshd[152863]: Disconnected from invalid user admin 157.245.248.106 port 51474 [preauth]
+Nov  7 20:33:01 scc-it120 sshd[152861]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:33:03 scc-it120 sshd[152861]: Failed password for root from 65.0.107.119 port 48336 ssh2
+Nov  7 20:33:08 scc-it120 sshd[152861]: Connection closed by authenticating user root 65.0.107.119 port 48336 [preauth]
+Nov  7 20:33:19 scc-it120 sshd[152868]: Invalid user hostmaster from 106.51.87.247 port 60604
+Nov  7 20:33:19 scc-it120 sshd[152868]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:33:19 scc-it120 sshd[152868]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:33:22 scc-it120 sshd[152868]: Failed password for invalid user hostmaster from 106.51.87.247 port 60604 ssh2
+Nov  7 20:33:22 scc-it120 sshd[152868]: Received disconnect from 106.51.87.247 port 60604:11: Bye Bye [preauth]
+Nov  7 20:33:22 scc-it120 sshd[152868]: Disconnected from invalid user hostmaster 106.51.87.247 port 60604 [preauth]
+Nov  7 20:33:27 scc-it120 sshd[152870]: error: kex_exchange_identification: read: Connection reset by peer
+Nov  7 20:33:27 scc-it120 sshd[152870]: Connection reset by 65.0.107.119 port 36402
+Nov  7 20:33:52 scc-it120 sshd[152875]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.31  user=root
+Nov  7 20:33:53 scc-it120 sshd[152872]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:33:54 scc-it120 sshd[152875]: Failed password for root from 218.92.0.31 port 48782 ssh2
+Nov  7 20:33:55 scc-it120 sshd[152872]: Failed password for root from 65.0.107.119 port 33458 ssh2
+Nov  7 20:33:57 scc-it120 sshd[152875]: Failed password for root from 218.92.0.31 port 48782 ssh2
+Nov  7 20:34:01 scc-it120 sshd[152875]: Failed password for root from 218.92.0.31 port 48782 ssh2
+Nov  7 20:34:02 scc-it120 sshd[152875]: Received disconnect from 218.92.0.31 port 48782:11:  [preauth]
+Nov  7 20:34:02 scc-it120 sshd[152875]: Disconnected from authenticating user root 218.92.0.31 port 48782 [preauth]
+Nov  7 20:34:02 scc-it120 sshd[152875]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.31  user=root
+Nov  7 20:34:03 scc-it120 sshd[152877]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.31  user=root
+Nov  7 20:34:05 scc-it120 sshd[152877]: Failed password for root from 218.92.0.31 port 20800 ssh2
+Nov  7 20:34:06 scc-it120 sshd[152872]: Connection closed by authenticating user root 65.0.107.119 port 33458 [preauth]
+Nov  7 20:34:08 scc-it120 sshd[152877]: Failed password for root from 218.92.0.31 port 20800 ssh2
+Nov  7 20:34:09 scc-it120 sshd[152877]: Failed password for root from 218.92.0.31 port 20800 ssh2
+Nov  7 20:34:10 scc-it120 sshd[152877]: Received disconnect from 218.92.0.31 port 20800:11:  [preauth]
+Nov  7 20:34:10 scc-it120 sshd[152877]: Disconnected from authenticating user root 218.92.0.31 port 20800 [preauth]
+Nov  7 20:34:10 scc-it120 sshd[152877]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.31  user=root
+Nov  7 20:34:13 scc-it120 sshd[152881]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.31  user=root
+Nov  7 20:34:16 scc-it120 sshd[152881]: Failed password for root from 218.92.0.31 port 24177 ssh2
+Nov  7 20:34:22 scc-it120 sshd[152881]: message repeated 2 times: [ Failed password for root from 218.92.0.31 port 24177 ssh2]
+Nov  7 20:34:23 scc-it120 sshd[152881]: Received disconnect from 218.92.0.31 port 24177:11:  [preauth]
+Nov  7 20:34:23 scc-it120 sshd[152881]: Disconnected from authenticating user root 218.92.0.31 port 24177 [preauth]
+Nov  7 20:34:23 scc-it120 sshd[152881]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.31  user=root
+Nov  7 20:34:32 scc-it120 sshd[152885]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:34:34 scc-it120 sshd[152885]: Failed password for root from 218.92.0.34 port 11131 ssh2
+Nov  7 20:34:40 scc-it120 sshd[152885]: message repeated 2 times: [ Failed password for root from 218.92.0.34 port 11131 ssh2]
+Nov  7 20:34:42 scc-it120 sshd[152885]: Received disconnect from 218.92.0.34 port 11131:11:  [preauth]
+Nov  7 20:34:42 scc-it120 sshd[152885]: Disconnected from authenticating user root 218.92.0.34 port 11131 [preauth]
+Nov  7 20:34:42 scc-it120 sshd[152885]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:34:43 scc-it120 sshd[152887]: Invalid user imobilis from 106.51.87.247 port 47059
+Nov  7 20:34:43 scc-it120 sshd[152887]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:34:43 scc-it120 sshd[152887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:34:44 scc-it120 sshd[152880]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:34:44 scc-it120 sshd[152887]: Failed password for invalid user imobilis from 106.51.87.247 port 47059 ssh2
+Nov  7 20:34:45 scc-it120 sshd[152889]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:34:46 scc-it120 sshd[152880]: Failed password for root from 65.0.107.119 port 37136 ssh2
+Nov  7 20:34:46 scc-it120 sshd[152887]: Received disconnect from 106.51.87.247 port 47059:11: Bye Bye [preauth]
+Nov  7 20:34:46 scc-it120 sshd[152887]: Disconnected from invalid user imobilis 106.51.87.247 port 47059 [preauth]
+Nov  7 20:34:46 scc-it120 sshd[152889]: Failed password for root from 218.92.0.34 port 34902 ssh2
+Nov  7 20:34:54 scc-it120 sshd[152889]: message repeated 2 times: [ Failed password for root from 218.92.0.34 port 34902 ssh2]
+Nov  7 20:34:54 scc-it120 sshd[152880]: Connection closed by authenticating user root 65.0.107.119 port 37136 [preauth]
+Nov  7 20:34:54 scc-it120 sshd[152889]: Received disconnect from 218.92.0.34 port 34902:11:  [preauth]
+Nov  7 20:34:54 scc-it120 sshd[152889]: Disconnected from authenticating user root 218.92.0.34 port 34902 [preauth]
+Nov  7 20:34:54 scc-it120 sshd[152889]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:34:56 scc-it120 sshd[152892]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:34:57 scc-it120 sshd[152892]: Failed password for root from 218.92.0.34 port 63315 ssh2
+Nov  7 20:35:00 scc-it120 sshd[152892]: Failed password for root from 218.92.0.34 port 63315 ssh2
+Nov  7 20:35:01 scc-it120 CRON[152896]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  7 20:35:01 scc-it120 CRON[152896]: pam_unix(cron:session): session closed for user root
+Nov  7 20:35:05 scc-it120 sshd[152892]: Failed password for root from 218.92.0.34 port 63315 ssh2
+Nov  7 20:35:05 scc-it120 sshd[152892]: Received disconnect from 218.92.0.34 port 63315:11:  [preauth]
+Nov  7 20:35:05 scc-it120 sshd[152892]: Disconnected from authenticating user root 218.92.0.34 port 63315 [preauth]
+Nov  7 20:35:05 scc-it120 sshd[152892]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:35:07 scc-it120 sshd[152894]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:35:09 scc-it120 sshd[152894]: Failed password for root from 65.0.107.119 port 60988 ssh2
+Nov  7 20:35:09 scc-it120 sshd[152894]: Connection closed by authenticating user root 65.0.107.119 port 60988 [preauth]
+Nov  7 20:35:24 scc-it120 sshd[152900]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:35:26 scc-it120 sshd[152900]: Failed password for root from 65.0.107.119 port 45858 ssh2
+Nov  7 20:35:30 scc-it120 sshd[152900]: Connection closed by authenticating user root 65.0.107.119 port 45858 [preauth]
+Nov  7 20:35:46 scc-it120 sshd[152903]: Accepted publickey for ada from 26.4.49.132 port 55975 ssh2: RSA SHA256:6OBDiRm41SuYt+j2xyOtupnyFmRnmu6qGvsdNO2q0jI
+Nov  7 20:35:46 scc-it120 sshd[152903]: pam_unix(sshd:session): session opened for user ada(uid=1066) by (uid=0)
+Nov  7 20:36:08 scc-it120 sshd[153022]: Invalid user myshake from 106.51.87.247 port 33513
+Nov  7 20:36:08 scc-it120 sshd[153022]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:36:08 scc-it120 sshd[153022]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:36:10 scc-it120 sshd[153022]: Failed password for invalid user myshake from 106.51.87.247 port 33513 ssh2
+Nov  7 20:36:11 scc-it120 sshd[153022]: Received disconnect from 106.51.87.247 port 33513:11: Bye Bye [preauth]
+Nov  7 20:36:11 scc-it120 sshd[153022]: Disconnected from invalid user myshake 106.51.87.247 port 33513 [preauth]
+Nov  7 20:36:24 scc-it120 sshd[153018]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:36:27 scc-it120 sshd[153018]: Failed password for root from 65.0.107.119 port 45244 ssh2
+Nov  7 20:36:33 scc-it120 sshd[153018]: Connection closed by authenticating user root 65.0.107.119 port 45244 [preauth]
+Nov  7 20:37:07 scc-it120 sshd[153028]: error: kex_exchange_identification: read: Connection reset by peer
+Nov  7 20:37:07 scc-it120 sshd[153028]: Connection reset by 65.0.107.119 port 58010
+Nov  7 20:37:35 scc-it120 sshd[153029]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:37:36 scc-it120 sshd[153032]: Invalid user teamspeak from 106.51.87.247 port 48201
+Nov  7 20:37:36 scc-it120 sshd[153032]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:37:36 scc-it120 sshd[153032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:37:37 scc-it120 sshd[153029]: Failed password for root from 65.0.107.119 port 51100 ssh2
+Nov  7 20:37:38 scc-it120 sshd[153032]: Failed password for invalid user teamspeak from 106.51.87.247 port 48201 ssh2
+Nov  7 20:37:39 scc-it120 sshd[153032]: Received disconnect from 106.51.87.247 port 48201:11: Bye Bye [preauth]
+Nov  7 20:37:39 scc-it120 sshd[153032]: Disconnected from invalid user teamspeak 106.51.87.247 port 48201 [preauth]
+Nov  7 20:37:41 scc-it120 sshd[153029]: Connection closed by authenticating user root 65.0.107.119 port 51100 [preauth]
+Nov  7 20:38:08 scc-it120 sshd[153035]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:38:10 scc-it120 sshd[153035]: Failed password for root from 65.0.107.119 port 39286 ssh2
+Nov  7 20:38:13 scc-it120 sshd[153035]: Connection closed by authenticating user root 65.0.107.119 port 39286 [preauth]
+Nov  7 20:38:41 scc-it120 sshd[153040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:38:43 scc-it120 sshd[153040]: Failed password for root from 65.0.107.119 port 48640 ssh2
+Nov  7 20:38:44 scc-it120 sshd[153043]: Invalid user test from 118.45.184.98 port 48552
+Nov  7 20:38:44 scc-it120 sshd[153043]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:38:44 scc-it120 sshd[153043]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:38:46 scc-it120 sshd[153043]: Failed password for invalid user test from 118.45.184.98 port 48552 ssh2
+Nov  7 20:38:47 scc-it120 sshd[153043]: Received disconnect from 118.45.184.98 port 48552:11: Bye Bye [preauth]
+Nov  7 20:38:47 scc-it120 sshd[153043]: Disconnected from invalid user test 118.45.184.98 port 48552 [preauth]
+Nov  7 20:38:48 scc-it120 sshd[153040]: Connection closed by authenticating user root 65.0.107.119 port 48640 [preauth]
+Nov  7 20:39:04 scc-it120 sshd[153048]: Invalid user public_html from 106.51.87.247 port 34656
+Nov  7 20:39:04 scc-it120 sshd[153048]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:39:04 scc-it120 sshd[153048]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:39:06 scc-it120 sshd[153048]: Failed password for invalid user public_html from 106.51.87.247 port 34656 ssh2
+Nov  7 20:39:06 scc-it120 sshd[153048]: Received disconnect from 106.51.87.247 port 34656:11: Bye Bye [preauth]
+Nov  7 20:39:06 scc-it120 sshd[153048]: Disconnected from invalid user public_html 106.51.87.247 port 34656 [preauth]
+Nov  7 20:39:13 scc-it120 sshd[153046]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:39:15 scc-it120 sshd[153046]: Failed password for root from 65.0.107.119 port 45134 ssh2
+Nov  7 20:39:19 scc-it120 sshd[153046]: Connection closed by authenticating user root 65.0.107.119 port 45134 [preauth]
+Nov  7 20:39:46 scc-it120 sshd[153054]: Invalid user admin1 from 157.245.248.106 port 36822
+Nov  7 20:39:46 scc-it120 sshd[153054]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:39:46 scc-it120 sshd[153054]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:39:48 scc-it120 sshd[153054]: Failed password for invalid user admin1 from 157.245.248.106 port 36822 ssh2
+Nov  7 20:39:48 scc-it120 sshd[153054]: Received disconnect from 157.245.248.106 port 36822:11: Bye Bye [preauth]
+Nov  7 20:39:48 scc-it120 sshd[153054]: Disconnected from invalid user admin1 157.245.248.106 port 36822 [preauth]
+Nov  7 20:40:06 scc-it120 sshd[153051]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:40:08 scc-it120 sshd[153051]: Failed password for root from 65.0.107.119 port 51632 ssh2
+Nov  7 20:40:16 scc-it120 sshd[153051]: Connection closed by authenticating user root 65.0.107.119 port 51632 [preauth]
+Nov  7 20:40:31 scc-it120 sshd[153061]: Invalid user teampspeak from 106.51.87.247 port 49344
+Nov  7 20:40:31 scc-it120 sshd[153061]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:40:31 scc-it120 sshd[153061]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:40:33 scc-it120 sshd[153061]: Failed password for invalid user teampspeak from 106.51.87.247 port 49344 ssh2
+Nov  7 20:40:34 scc-it120 sshd[153061]: Received disconnect from 106.51.87.247 port 49344:11: Bye Bye [preauth]
+Nov  7 20:40:34 scc-it120 sshd[153061]: Disconnected from invalid user teampspeak 106.51.87.247 port 49344 [preauth]
+Nov  7 20:40:40 scc-it120 sshd[153058]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:40:42 scc-it120 sshd[153058]: Failed password for root from 65.0.107.119 port 56234 ssh2
+Nov  7 20:40:48 scc-it120 sshd[153058]: Connection closed by authenticating user root 65.0.107.119 port 56234 [preauth]
+Nov  7 20:40:57 scc-it120 sshd[153066]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:40:59 scc-it120 sshd[153066]: Failed password for root from 218.92.0.107 port 39215 ssh2
+Nov  7 20:41:05 scc-it120 sshd[153066]: message repeated 2 times: [ Failed password for root from 218.92.0.107 port 39215 ssh2]
+Nov  7 20:41:07 scc-it120 sshd[153066]: Received disconnect from 218.92.0.107 port 39215:11:  [preauth]
+Nov  7 20:41:07 scc-it120 sshd[153066]: Disconnected from authenticating user root 218.92.0.107 port 39215 [preauth]
+Nov  7 20:41:07 scc-it120 sshd[153066]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:41:09 scc-it120 sshd[153069]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:41:09 scc-it120 sshd[153064]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:41:10 scc-it120 sshd[153069]: Failed password for root from 218.92.0.107 port 61560 ssh2
+Nov  7 20:41:10 scc-it120 sshd[153064]: Failed password for root from 65.0.107.119 port 41880 ssh2
+Nov  7 20:41:12 scc-it120 sshd[153069]: Failed password for root from 218.92.0.107 port 61560 ssh2
+Nov  7 20:41:15 scc-it120 sshd[153064]: Connection closed by authenticating user root 65.0.107.119 port 41880 [preauth]
+Nov  7 20:41:16 scc-it120 sshd[153069]: Failed password for root from 218.92.0.107 port 61560 ssh2
+Nov  7 20:41:18 scc-it120 sshd[153069]: Received disconnect from 218.92.0.107 port 61560:11:  [preauth]
+Nov  7 20:41:18 scc-it120 sshd[153069]: Disconnected from authenticating user root 218.92.0.107 port 61560 [preauth]
+Nov  7 20:41:18 scc-it120 sshd[153069]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:41:20 scc-it120 sshd[153072]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:41:22 scc-it120 sshd[153072]: Failed password for root from 218.92.0.107 port 22004 ssh2
+Nov  7 20:41:29 scc-it120 sshd[153072]: message repeated 2 times: [ Failed password for root from 218.92.0.107 port 22004 ssh2]
+Nov  7 20:41:30 scc-it120 sshd[153072]: Received disconnect from 218.92.0.107 port 22004:11:  [preauth]
+Nov  7 20:41:30 scc-it120 sshd[153072]: Disconnected from authenticating user root 218.92.0.107 port 22004 [preauth]
+Nov  7 20:41:30 scc-it120 sshd[153072]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:41:36 scc-it120 sshd[153071]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:41:38 scc-it120 sshd[153071]: Failed password for root from 65.0.107.119 port 53528 ssh2
+Nov  7 20:41:43 scc-it120 sshd[153071]: Connection closed by authenticating user root 65.0.107.119 port 53528 [preauth]
+Nov  7 20:41:59 scc-it120 sshd[153080]: Invalid user fog from 106.51.87.247 port 35799
+Nov  7 20:41:59 scc-it120 sshd[153080]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:41:59 scc-it120 sshd[153080]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:42:01 scc-it120 sshd[153080]: Failed password for invalid user fog from 106.51.87.247 port 35799 ssh2
+Nov  7 20:42:02 scc-it120 sshd[153080]: Received disconnect from 106.51.87.247 port 35799:11: Bye Bye [preauth]
+Nov  7 20:42:02 scc-it120 sshd[153080]: Disconnected from invalid user fog 106.51.87.247 port 35799 [preauth]
+Nov  7 20:42:04 scc-it120 sshd[153077]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:42:05 scc-it120 sshd[153082]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=39.152.40.228  user=root
+Nov  7 20:42:06 scc-it120 sshd[153077]: Failed password for root from 65.0.107.119 port 54058 ssh2
+Nov  7 20:42:07 scc-it120 sshd[153082]: Failed password for root from 39.152.40.228 port 6955 ssh2
+Nov  7 20:42:08 scc-it120 sshd[153077]: Connection closed by authenticating user root 65.0.107.119 port 54058 [preauth]
+Nov  7 20:42:10 scc-it120 sshd[153082]: Connection closed by authenticating user root 39.152.40.228 port 6955 [preauth]
+Nov  7 20:42:34 scc-it120 sshd[153085]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:42:36 scc-it120 sshd[153085]: Failed password for root from 65.0.107.119 port 50484 ssh2
+Nov  7 20:42:41 scc-it120 sshd[153085]: Connection closed by authenticating user root 65.0.107.119 port 50484 [preauth]
+Nov  7 20:43:28 scc-it120 sshd[153093]: Invalid user user4 from 106.51.87.247 port 50487
+Nov  7 20:43:28 scc-it120 sshd[153093]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:43:28 scc-it120 sshd[153093]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:43:30 scc-it120 sshd[153093]: Failed password for invalid user user4 from 106.51.87.247 port 50487 ssh2
+Nov  7 20:43:30 scc-it120 sshd[153093]: Received disconnect from 106.51.87.247 port 50487:11: Bye Bye [preauth]
+Nov  7 20:43:30 scc-it120 sshd[153093]: Disconnected from invalid user user4 106.51.87.247 port 50487 [preauth]
+Nov  7 20:43:34 scc-it120 sshd[153095]: Invalid user yana from 118.45.184.98 port 46666
+Nov  7 20:43:34 scc-it120 sshd[153095]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:43:34 scc-it120 sshd[153095]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:43:37 scc-it120 sshd[153095]: Failed password for invalid user yana from 118.45.184.98 port 46666 ssh2
+Nov  7 20:43:37 scc-it120 sshd[153095]: Received disconnect from 118.45.184.98 port 46666:11: Bye Bye [preauth]
+Nov  7 20:43:37 scc-it120 sshd[153095]: Disconnected from invalid user yana 118.45.184.98 port 46666 [preauth]
+Nov  7 20:43:50 scc-it120 sshd[153097]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:43:52 scc-it120 sshd[153097]: Failed password for root from 65.0.107.119 port 50992 ssh2
+Nov  7 20:43:57 scc-it120 sshd[153097]: Connection closed by authenticating user root 65.0.107.119 port 50992 [preauth]
+Nov  7 20:44:10 scc-it120 sshd[153103]: Invalid user braxton from 157.245.248.106 port 33774
+Nov  7 20:44:10 scc-it120 sshd[153103]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:44:10 scc-it120 sshd[153103]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:44:11 scc-it120 sshd[153103]: Failed password for invalid user braxton from 157.245.248.106 port 33774 ssh2
+Nov  7 20:44:12 scc-it120 sshd[153103]: Received disconnect from 157.245.248.106 port 33774:11: Bye Bye [preauth]
+Nov  7 20:44:12 scc-it120 sshd[153103]: Disconnected from invalid user braxton 157.245.248.106 port 33774 [preauth]
+Nov  7 20:44:25 scc-it120 sshd[153105]: error: kex_exchange_identification: Connection closed by remote host
+Nov  7 20:44:25 scc-it120 sshd[153105]: Connection closed by 141.98.11.116 port 65105
+Nov  7 20:44:45 scc-it120 sshd[153101]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:44:46 scc-it120 sshd[153101]: Failed password for root from 65.0.107.119 port 59652 ssh2
+Nov  7 20:44:51 scc-it120 sshd[153101]: Connection closed by authenticating user root 65.0.107.119 port 59652 [preauth]
+Nov  7 20:44:55 scc-it120 sshd[153108]: Invalid user murai from 106.51.87.247 port 36942
+Nov  7 20:44:55 scc-it120 sshd[153108]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:44:55 scc-it120 sshd[153108]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:44:58 scc-it120 sshd[153108]: Failed password for invalid user murai from 106.51.87.247 port 36942 ssh2
+Nov  7 20:45:00 scc-it120 sshd[153108]: Received disconnect from 106.51.87.247 port 36942:11: Bye Bye [preauth]
+Nov  7 20:45:00 scc-it120 sshd[153108]: Disconnected from invalid user murai 106.51.87.247 port 36942 [preauth]
+Nov  7 20:45:01 scc-it120 CRON[153110]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  7 20:45:01 scc-it120 CRON[153110]: pam_unix(cron:session): session closed for user root
+Nov  7 20:45:04 scc-it120 sshd[153113]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98  user=ubuntu
+Nov  7 20:45:05 scc-it120 sshd[153113]: Failed password for ubuntu from 118.45.184.98 port 57258 ssh2
+Nov  7 20:45:06 scc-it120 sshd[153113]: Received disconnect from 118.45.184.98 port 57258:11: Bye Bye [preauth]
+Nov  7 20:45:06 scc-it120 sshd[153113]: Disconnected from authenticating user ubuntu 118.45.184.98 port 57258 [preauth]
+Nov  7 20:45:24 scc-it120 sshd[153116]: error: kex_exchange_identification: read: Connection reset by peer
+Nov  7 20:45:24 scc-it120 sshd[153116]: Connection reset by 65.0.107.119 port 43034
+Nov  7 20:45:37 scc-it120 sshd[153119]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.151.32.7  user=git
+Nov  7 20:45:40 scc-it120 sshd[153119]: Failed password for git from 185.151.32.7 port 34844 ssh2
+Nov  7 20:45:41 scc-it120 sshd[153119]: Received disconnect from 185.151.32.7 port 34844:11: Bye Bye [preauth]
+Nov  7 20:45:41 scc-it120 sshd[153119]: Disconnected from authenticating user git 185.151.32.7 port 34844 [preauth]
+Nov  7 20:46:03 scc-it120 sshd[153122]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:46:04 scc-it120 sshd[153122]: Failed password for root from 65.0.107.119 port 44854 ssh2
+Nov  7 20:46:11 scc-it120 sshd[153122]: Connection closed by authenticating user root 65.0.107.119 port 44854 [preauth]
+Nov  7 20:46:20 scc-it120 sshd[153126]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247  user=gnats
+Nov  7 20:46:22 scc-it120 sshd[153126]: Failed password for gnats from 106.51.87.247 port 51630 ssh2
+Nov  7 20:46:23 scc-it120 sshd[153126]: Received disconnect from 106.51.87.247 port 51630:11: Bye Bye [preauth]
+Nov  7 20:46:23 scc-it120 sshd[153126]: Disconnected from authenticating user gnats 106.51.87.247 port 51630 [preauth]
+Nov  7 20:46:28 scc-it120 sshd[153130]: Invalid user ashok from 118.45.184.98 port 60416
+Nov  7 20:46:28 scc-it120 sshd[153130]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:46:28 scc-it120 sshd[153130]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:46:29 scc-it120 sshd[153130]: Failed password for invalid user ashok from 118.45.184.98 port 60416 ssh2
+Nov  7 20:46:30 scc-it120 sshd[153130]: Received disconnect from 118.45.184.98 port 60416:11: Bye Bye [preauth]
+Nov  7 20:46:30 scc-it120 sshd[153130]: Disconnected from invalid user ashok 118.45.184.98 port 60416 [preauth]
+Nov  7 20:46:31 scc-it120 sshd[153132]: Invalid user support1 from 157.245.248.106 port 45404
+Nov  7 20:46:31 scc-it120 sshd[153132]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:46:31 scc-it120 sshd[153132]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:46:33 scc-it120 sshd[153132]: Failed password for invalid user support1 from 157.245.248.106 port 45404 ssh2
+Nov  7 20:46:34 scc-it120 sshd[153132]: Received disconnect from 157.245.248.106 port 45404:11: Bye Bye [preauth]
+Nov  7 20:46:34 scc-it120 sshd[153132]: Disconnected from invalid user support1 157.245.248.106 port 45404 [preauth]
+Nov  7 20:46:49 scc-it120 sshd[153125]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:46:51 scc-it120 sshd[153125]: Failed password for root from 65.0.107.119 port 39254 ssh2
+Nov  7 20:46:55 scc-it120 sshd[153125]: Connection closed by authenticating user root 65.0.107.119 port 39254 [preauth]
+Nov  7 20:47:15 scc-it120 sshd[153135]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:47:16 scc-it120 sshd[153135]: Failed password for root from 65.0.107.119 port 42356 ssh2
+Nov  7 20:47:20 scc-it120 sshd[153135]: Connection closed by authenticating user root 65.0.107.119 port 42356 [preauth]
+Nov  7 20:47:37 scc-it120 sshd[153138]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:47:39 scc-it120 sshd[153138]: Failed password for root from 65.0.107.119 port 34096 ssh2
+Nov  7 20:47:42 scc-it120 sshd[153138]: Connection closed by authenticating user root 65.0.107.119 port 34096 [preauth]
+Nov  7 20:47:45 scc-it120 sshd[153141]: Invalid user config from 106.51.87.247 port 38084
+Nov  7 20:47:45 scc-it120 sshd[153141]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:47:45 scc-it120 sshd[153141]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:47:46 scc-it120 sshd[153141]: Failed password for invalid user config from 106.51.87.247 port 38084 ssh2
+Nov  7 20:47:47 scc-it120 sshd[153141]: Received disconnect from 106.51.87.247 port 38084:11: Bye Bye [preauth]
+Nov  7 20:47:47 scc-it120 sshd[153141]: Disconnected from invalid user config 106.51.87.247 port 38084 [preauth]
+Nov  7 20:47:49 scc-it120 sshd[153145]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98  user=git
+Nov  7 20:47:51 scc-it120 sshd[153145]: Failed password for git from 118.45.184.98 port 60494 ssh2
+Nov  7 20:47:52 scc-it120 sshd[153145]: Received disconnect from 118.45.184.98 port 60494:11: Bye Bye [preauth]
+Nov  7 20:47:52 scc-it120 sshd[153145]: Disconnected from authenticating user git 118.45.184.98 port 60494 [preauth]
+Nov  7 20:48:00 scc-it120 sshd[153148]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:48:02 scc-it120 sshd[153148]: Failed password for root from 218.92.0.34 port 60029 ssh2
+Nov  7 20:48:09 scc-it120 sshd[153148]: message repeated 2 times: [ Failed password for root from 218.92.0.34 port 60029 ssh2]
+Nov  7 20:48:11 scc-it120 sshd[153148]: Received disconnect from 218.92.0.34 port 60029:11:  [preauth]
+Nov  7 20:48:11 scc-it120 sshd[153148]: Disconnected from authenticating user root 218.92.0.34 port 60029 [preauth]
+Nov  7 20:48:11 scc-it120 sshd[153148]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:48:12 scc-it120 sshd[153143]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:48:13 scc-it120 sshd[153151]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:48:14 scc-it120 sshd[153143]: Failed password for root from 65.0.107.119 port 41960 ssh2
+Nov  7 20:48:15 scc-it120 sshd[153151]: Failed password for root from 218.92.0.34 port 44195 ssh2
+Nov  7 20:48:17 scc-it120 sshd[153151]: Failed password for root from 218.92.0.34 port 44195 ssh2
+Nov  7 20:48:19 scc-it120 sshd[153143]: Connection closed by authenticating user root 65.0.107.119 port 41960 [preauth]
+Nov  7 20:48:19 scc-it120 sshd[153151]: Failed password for root from 218.92.0.34 port 44195 ssh2
+Nov  7 20:48:20 scc-it120 sshd[153151]: Received disconnect from 218.92.0.34 port 44195:11:  [preauth]
+Nov  7 20:48:20 scc-it120 sshd[153151]: Disconnected from authenticating user root 218.92.0.34 port 44195 [preauth]
+Nov  7 20:48:20 scc-it120 sshd[153151]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:48:22 scc-it120 sshd[153153]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:48:25 scc-it120 sshd[153153]: Failed password for root from 218.92.0.34 port 50522 ssh2
+Nov  7 20:48:31 scc-it120 sshd[153153]: message repeated 2 times: [ Failed password for root from 218.92.0.34 port 50522 ssh2]
+Nov  7 20:48:32 scc-it120 sshd[153153]: Received disconnect from 218.92.0.34 port 50522:11:  [preauth]
+Nov  7 20:48:32 scc-it120 sshd[153153]: Disconnected from authenticating user root 218.92.0.34 port 50522 [preauth]
+Nov  7 20:48:32 scc-it120 sshd[153153]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.34  user=root
+Nov  7 20:48:34 scc-it120 sshd[153159]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.76  user=root
+Nov  7 20:48:36 scc-it120 sshd[153159]: Failed password for root from 218.92.0.76 port 36915 ssh2
+Nov  7 20:48:43 scc-it120 sshd[153159]: message repeated 2 times: [ Failed password for root from 218.92.0.76 port 36915 ssh2]
+Nov  7 20:48:43 scc-it120 sshd[153159]: Received disconnect from 218.92.0.76 port 36915:11:  [preauth]
+Nov  7 20:48:43 scc-it120 sshd[153159]: Disconnected from authenticating user root 218.92.0.76 port 36915 [preauth]
+Nov  7 20:48:43 scc-it120 sshd[153159]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.76  user=root
+Nov  7 20:48:45 scc-it120 sshd[153161]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.76  user=root
+Nov  7 20:48:47 scc-it120 sshd[153161]: Failed password for root from 218.92.0.76 port 44296 ssh2
+Nov  7 20:48:49 scc-it120 sshd[153164]: Invalid user webmaster from 157.245.248.106 port 43166
+Nov  7 20:48:49 scc-it120 sshd[153164]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:48:49 scc-it120 sshd[153164]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:48:51 scc-it120 sshd[153155]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:48:51 scc-it120 sshd[153161]: Failed password for root from 218.92.0.76 port 44296 ssh2
+Nov  7 20:48:51 scc-it120 sshd[153164]: Failed password for invalid user webmaster from 157.245.248.106 port 43166 ssh2
+Nov  7 20:48:53 scc-it120 sshd[153155]: Failed password for root from 65.0.107.119 port 48868 ssh2
+Nov  7 20:48:53 scc-it120 sshd[153164]: Received disconnect from 157.245.248.106 port 43166:11: Bye Bye [preauth]
+Nov  7 20:48:53 scc-it120 sshd[153164]: Disconnected from invalid user webmaster 157.245.248.106 port 43166 [preauth]
+Nov  7 20:48:54 scc-it120 sshd[153161]: Failed password for root from 218.92.0.76 port 44296 ssh2
+Nov  7 20:48:56 scc-it120 sshd[153155]: Connection closed by authenticating user root 65.0.107.119 port 48868 [preauth]
+Nov  7 20:48:56 scc-it120 sshd[153161]: Received disconnect from 218.92.0.76 port 44296:11:  [preauth]
+Nov  7 20:48:56 scc-it120 sshd[153161]: Disconnected from authenticating user root 218.92.0.76 port 44296 [preauth]
+Nov  7 20:48:56 scc-it120 sshd[153161]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.76  user=root
+Nov  7 20:48:58 scc-it120 sshd[153166]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.76  user=root
+Nov  7 20:49:00 scc-it120 sshd[153166]: Failed password for root from 218.92.0.76 port 11864 ssh2
+Nov  7 20:49:07 scc-it120 sshd[153166]: message repeated 2 times: [ Failed password for root from 218.92.0.76 port 11864 ssh2]
+Nov  7 20:49:10 scc-it120 sshd[153166]: Received disconnect from 218.92.0.76 port 11864:11:  [preauth]
+Nov  7 20:49:10 scc-it120 sshd[153166]: Disconnected from authenticating user root 218.92.0.76 port 11864 [preauth]
+Nov  7 20:49:10 scc-it120 sshd[153166]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.76  user=root
+Nov  7 20:49:10 scc-it120 sshd[153171]: Invalid user contact from 118.45.184.98 port 53738
+Nov  7 20:49:10 scc-it120 sshd[153171]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:49:10 scc-it120 sshd[153171]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:49:11 scc-it120 sshd[153173]: Invalid user home from 106.51.87.247 port 52774
+Nov  7 20:49:11 scc-it120 sshd[153173]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:49:11 scc-it120 sshd[153173]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:49:12 scc-it120 sshd[153171]: Failed password for invalid user contact from 118.45.184.98 port 53738 ssh2
+Nov  7 20:49:14 scc-it120 sshd[153173]: Failed password for invalid user home from 106.51.87.247 port 52774 ssh2
+Nov  7 20:49:15 scc-it120 sshd[153171]: Received disconnect from 118.45.184.98 port 53738:11: Bye Bye [preauth]
+Nov  7 20:49:15 scc-it120 sshd[153171]: Disconnected from invalid user contact 118.45.184.98 port 53738 [preauth]
+Nov  7 20:49:15 scc-it120 sshd[153173]: Received disconnect from 106.51.87.247 port 52774:11: Bye Bye [preauth]
+Nov  7 20:49:15 scc-it120 sshd[153173]: Disconnected from invalid user home 106.51.87.247 port 52774 [preauth]
+Nov  7 20:49:28 scc-it120 sshd[153168]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:49:30 scc-it120 sshd[153168]: Failed password for root from 65.0.107.119 port 44840 ssh2
+Nov  7 20:49:35 scc-it120 sshd[153168]: Connection closed by authenticating user root 65.0.107.119 port 44840 [preauth]
+Nov  7 20:50:08 scc-it120 sshd[153177]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:50:10 scc-it120 sshd[153177]: Failed password for root from 65.0.107.119 port 60640 ssh2
+Nov  7 20:50:14 scc-it120 sshd[153177]: Connection closed by authenticating user root 65.0.107.119 port 60640 [preauth]
+Nov  7 20:50:28 scc-it120 sshd[153183]: Invalid user cvsuser from 185.151.32.7 port 44414
+Nov  7 20:50:28 scc-it120 sshd[153183]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:50:28 scc-it120 sshd[153183]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.151.32.7
+Nov  7 20:50:30 scc-it120 sshd[153183]: Failed password for invalid user cvsuser from 185.151.32.7 port 44414 ssh2
+Nov  7 20:50:32 scc-it120 sshd[153183]: Received disconnect from 185.151.32.7 port 44414:11: Bye Bye [preauth]
+Nov  7 20:50:32 scc-it120 sshd[153183]: Disconnected from invalid user cvsuser 185.151.32.7 port 44414 [preauth]
+Nov  7 20:50:33 scc-it120 sshd[153186]: Invalid user admin from 118.45.184.98 port 45814
+Nov  7 20:50:33 scc-it120 sshd[153186]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:50:33 scc-it120 sshd[153186]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:50:36 scc-it120 sshd[153186]: Failed password for invalid user admin from 118.45.184.98 port 45814 ssh2
+Nov  7 20:50:38 scc-it120 sshd[153186]: Received disconnect from 118.45.184.98 port 45814:11: Bye Bye [preauth]
+Nov  7 20:50:38 scc-it120 sshd[153186]: Disconnected from invalid user admin 118.45.184.98 port 45814 [preauth]
+Nov  7 20:50:40 scc-it120 sshd[153188]: Invalid user test from 106.51.87.247 port 39229
+Nov  7 20:50:40 scc-it120 sshd[153188]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:50:40 scc-it120 sshd[153188]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:50:42 scc-it120 sshd[153190]: Accepted publickey for kit from 67.160.119.109 port 59128 ssh2: RSA SHA256:IQdd7CVQQFbPEXG+uLJ9SqIdplusp2YU5vU5NV/X4Rw
+Nov  7 20:50:42 scc-it120 sshd[153190]: pam_unix(sshd:session): session opened for user kit(uid=1003) by (uid=0)
+Nov  7 20:50:42 scc-it120 systemd: pam_unix(systemd-user:session): session opened for user kit(uid=1003) by (uid=0)
+Nov  7 20:50:42 scc-it120 sshd[153188]: Failed password for invalid user test from 106.51.87.247 port 39229 ssh2
+Nov  7 20:50:43 scc-it120 sshd[153188]: Received disconnect from 106.51.87.247 port 39229:11: Bye Bye [preauth]
+Nov  7 20:50:43 scc-it120 sshd[153188]: Disconnected from invalid user test 106.51.87.247 port 39229 [preauth]
+Nov  7 20:50:52 scc-it120 sudo:      kit : TTY=pts/1 ; PWD=/etc ; USER=root ; COMMAND=/bin/bash
+Nov  7 20:50:52 scc-it120 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kit(uid=1003)
+Nov  7 20:50:52 scc-it120 sshd[153180]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:50:55 scc-it120 sshd[153180]: Failed password for root from 65.0.107.119 port 33566 ssh2
+Nov  7 20:51:00 scc-it120 sshd[153180]: Connection closed by authenticating user root 65.0.107.119 port 33566 [preauth]
+Nov  7 20:51:10 scc-it120 sshd[153318]: Invalid user mine from 157.245.248.106 port 55212
+Nov  7 20:51:10 scc-it120 sshd[153318]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:51:10 scc-it120 sshd[153318]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:51:12 scc-it120 sshd[153318]: Failed password for invalid user mine from 157.245.248.106 port 55212 ssh2
+Nov  7 20:51:12 scc-it120 sshd[153318]: Received disconnect from 157.245.248.106 port 55212:11: Bye Bye [preauth]
+Nov  7 20:51:12 scc-it120 sshd[153318]: Disconnected from invalid user mine 157.245.248.106 port 55212 [preauth]
+Nov  7 20:51:30 scc-it120 sshd[153314]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:51:32 scc-it120 sshd[153314]: Failed password for root from 65.0.107.119 port 46270 ssh2
+Nov  7 20:51:33 scc-it120 sshd[153314]: Connection closed by authenticating user root 65.0.107.119 port 46270 [preauth]
+Nov  7 20:51:55 scc-it120 sshd[153325]: Invalid user x from 118.45.184.98 port 32978
+Nov  7 20:51:55 scc-it120 sshd[153325]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:51:55 scc-it120 sshd[153325]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:51:56 scc-it120 sshd[153325]: Failed password for invalid user x from 118.45.184.98 port 32978 ssh2
+Nov  7 20:51:57 scc-it120 sshd[153325]: Received disconnect from 118.45.184.98 port 32978:11: Bye Bye [preauth]
+Nov  7 20:51:57 scc-it120 sshd[153325]: Disconnected from invalid user x 118.45.184.98 port 32978 [preauth]
+Nov  7 20:52:01 scc-it120 sshd[153322]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:52:03 scc-it120 sshd[153322]: Failed password for root from 65.0.107.119 port 38508 ssh2
+Nov  7 20:52:08 scc-it120 sshd[153329]: Invalid user share from 106.51.87.247 port 53917
+Nov  7 20:52:08 scc-it120 sshd[153329]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:52:08 scc-it120 sshd[153329]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:52:09 scc-it120 sshd[153329]: Failed password for invalid user share from 106.51.87.247 port 53917 ssh2
+Nov  7 20:52:09 scc-it120 sshd[153329]: Received disconnect from 106.51.87.247 port 53917:11: Bye Bye [preauth]
+Nov  7 20:52:09 scc-it120 sshd[153329]: Disconnected from invalid user share 106.51.87.247 port 53917 [preauth]
+Nov  7 20:52:12 scc-it120 sshd[153322]: Connection closed by authenticating user root 65.0.107.119 port 38508 [preauth]
+Nov  7 20:52:18 scc-it120 sshd[153332]: Invalid user dtluu from 45.95.146.121 port 56996
+Nov  7 20:52:18 scc-it120 sshd[153332]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:52:18 scc-it120 sshd[153332]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.95.146.121
+Nov  7 20:52:19 scc-it120 sshd[153332]: Failed password for invalid user dtluu from 45.95.146.121 port 56996 ssh2
+Nov  7 20:52:21 scc-it120 sshd[153332]: Connection closed by invalid user dtluu 45.95.146.121 port 56996 [preauth]
+Nov  7 20:52:49 scc-it120 sshd[153331]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:52:51 scc-it120 sshd[153331]: Failed password for root from 65.0.107.119 port 44596 ssh2
+Nov  7 20:52:55 scc-it120 sshd[153331]: Connection closed by authenticating user root 65.0.107.119 port 44596 [preauth]
+Nov  7 20:53:15 scc-it120 sshd[153340]: Invalid user service from 118.45.184.98 port 33942
+Nov  7 20:53:15 scc-it120 sshd[153340]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:53:15 scc-it120 sshd[153340]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:53:17 scc-it120 sshd[153340]: Failed password for invalid user service from 118.45.184.98 port 33942 ssh2
+Nov  7 20:53:18 scc-it120 sshd[153340]: Received disconnect from 118.45.184.98 port 33942:11: Bye Bye [preauth]
+Nov  7 20:53:18 scc-it120 sshd[153340]: Disconnected from invalid user service 118.45.184.98 port 33942 [preauth]
+Nov  7 20:53:21 scc-it120 sshd[153337]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:53:23 scc-it120 sshd[153337]: Failed password for root from 65.0.107.119 port 34838 ssh2
+Nov  7 20:53:27 scc-it120 sshd[153337]: Connection closed by authenticating user root 65.0.107.119 port 34838 [preauth]
+Nov  7 20:53:34 scc-it120 sshd[153346]: Invalid user uploader from 106.51.87.247 port 40372
+Nov  7 20:53:34 scc-it120 sshd[153346]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:53:34 scc-it120 sshd[153346]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.51.87.247
+Nov  7 20:53:36 scc-it120 sshd[153346]: Failed password for invalid user uploader from 106.51.87.247 port 40372 ssh2
+Nov  7 20:53:38 scc-it120 sshd[153346]: Received disconnect from 106.51.87.247 port 40372:11: Bye Bye [preauth]
+Nov  7 20:53:38 scc-it120 sshd[153346]: Disconnected from invalid user uploader 106.51.87.247 port 40372 [preauth]
+Nov  7 20:53:47 scc-it120 sshd[153349]: Invalid user sjen from 185.151.32.7 port 42540
+Nov  7 20:53:47 scc-it120 sshd[153349]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:53:47 scc-it120 sshd[153349]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.151.32.7
+Nov  7 20:53:49 scc-it120 sshd[153349]: Failed password for invalid user sjen from 185.151.32.7 port 42540 ssh2
+Nov  7 20:53:49 scc-it120 sshd[153349]: Received disconnect from 185.151.32.7 port 42540:11: Bye Bye [preauth]
+Nov  7 20:53:49 scc-it120 sshd[153349]: Disconnected from invalid user sjen 185.151.32.7 port 42540 [preauth]
+Nov  7 20:53:56 scc-it120 sshd[153345]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:53:58 scc-it120 sshd[153345]: Failed password for root from 65.0.107.119 port 41722 ssh2
+Nov  7 20:54:04 scc-it120 sshd[153345]: Connection closed by authenticating user root 65.0.107.119 port 41722 [preauth]
+Nov  7 20:54:33 scc-it120 sshd[153356]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:54:35 scc-it120 sshd[153356]: Failed password for root from 218.92.0.107 port 45805 ssh2
+Nov  7 20:54:38 scc-it120 sshd[153356]: Failed password for root from 218.92.0.107 port 45805 ssh2
+Nov  7 20:54:39 scc-it120 sshd[153353]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:54:41 scc-it120 sshd[153358]: Invalid user token from 118.45.184.98 port 53158
+Nov  7 20:54:41 scc-it120 sshd[153358]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:54:41 scc-it120 sshd[153358]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:54:41 scc-it120 sshd[153353]: Failed password for root from 65.0.107.119 port 44804 ssh2
+Nov  7 20:54:43 scc-it120 sshd[153356]: Failed password for root from 218.92.0.107 port 45805 ssh2
+Nov  7 20:54:43 scc-it120 sshd[153358]: Failed password for invalid user token from 118.45.184.98 port 53158 ssh2
+Nov  7 20:54:43 scc-it120 sshd[153356]: Received disconnect from 218.92.0.107 port 45805:11:  [preauth]
+Nov  7 20:54:43 scc-it120 sshd[153356]: Disconnected from authenticating user root 218.92.0.107 port 45805 [preauth]
+Nov  7 20:54:43 scc-it120 sshd[153356]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:54:43 scc-it120 sshd[153358]: Received disconnect from 118.45.184.98 port 53158:11: Bye Bye [preauth]
+Nov  7 20:54:43 scc-it120 sshd[153358]: Disconnected from invalid user token 118.45.184.98 port 53158 [preauth]
+Nov  7 20:54:46 scc-it120 sshd[153360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:54:47 scc-it120 sshd[153360]: Failed password for root from 218.92.0.107 port 13023 ssh2
+Nov  7 20:54:48 scc-it120 sshd[153353]: Connection closed by authenticating user root 65.0.107.119 port 44804 [preauth]
+Nov  7 20:54:51 scc-it120 sshd[153360]: Failed password for root from 218.92.0.107 port 13023 ssh2
+Nov  7 20:54:55 scc-it120 sshd[153360]: Failed password for root from 218.92.0.107 port 13023 ssh2
+Nov  7 20:54:55 scc-it120 sshd[153360]: Received disconnect from 218.92.0.107 port 13023:11:  [preauth]
+Nov  7 20:54:55 scc-it120 sshd[153360]: Disconnected from authenticating user root 218.92.0.107 port 13023 [preauth]
+Nov  7 20:54:55 scc-it120 sshd[153360]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:54:58 scc-it120 sshd[153364]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:55:00 scc-it120 sshd[153364]: Failed password for root from 218.92.0.107 port 36672 ssh2
+Nov  7 20:55:01 scc-it120 CRON[153367]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  7 20:55:01 scc-it120 CRON[153367]: pam_unix(cron:session): session closed for user root
+Nov  7 20:55:02 scc-it120 sshd[153364]: Failed password for root from 218.92.0.107 port 36672 ssh2
+Nov  7 20:55:05 scc-it120 sshd[153364]: Failed password for root from 218.92.0.107 port 36672 ssh2
+Nov  7 20:55:05 scc-it120 sshd[153364]: Received disconnect from 218.92.0.107 port 36672:11:  [preauth]
+Nov  7 20:55:05 scc-it120 sshd[153364]: Disconnected from authenticating user root 218.92.0.107 port 36672 [preauth]
+Nov  7 20:55:05 scc-it120 sshd[153364]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.107  user=root
+Nov  7 20:55:15 scc-it120 sshd[153363]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:55:17 scc-it120 sshd[153363]: Failed password for root from 65.0.107.119 port 53376 ssh2
+Nov  7 20:55:20 scc-it120 sshd[153363]: Connection closed by authenticating user root 65.0.107.119 port 53376 [preauth]
+Nov  7 20:55:46 scc-it120 sshd[153374]: Invalid user ftb from 157.245.248.106 port 56472
+Nov  7 20:55:46 scc-it120 sshd[153374]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:55:46 scc-it120 sshd[153374]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.245.248.106
+Nov  7 20:55:48 scc-it120 sshd[153374]: Failed password for invalid user ftb from 157.245.248.106 port 56472 ssh2
+Nov  7 20:55:48 scc-it120 sshd[153371]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:55:50 scc-it120 sshd[153374]: Received disconnect from 157.245.248.106 port 56472:11: Bye Bye [preauth]
+Nov  7 20:55:50 scc-it120 sshd[153374]: Disconnected from invalid user ftb 157.245.248.106 port 56472 [preauth]
+Nov  7 20:55:50 scc-it120 sshd[153371]: Failed password for root from 65.0.107.119 port 56500 ssh2
+Nov  7 20:55:56 scc-it120 sshd[153371]: Connection closed by authenticating user root 65.0.107.119 port 56500 [preauth]
+Nov  7 20:56:25 scc-it120 sshd[153377]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:56:26 scc-it120 sshd[153381]: Invalid user ts from 118.45.184.98 port 33858
+Nov  7 20:56:26 scc-it120 sshd[153381]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:56:26 scc-it120 sshd[153381]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:56:27 scc-it120 sshd[153377]: Failed password for root from 65.0.107.119 port 37574 ssh2
+Nov  7 20:56:28 scc-it120 sshd[153381]: Failed password for invalid user ts from 118.45.184.98 port 33858 ssh2
+Nov  7 20:56:28 scc-it120 sshd[153381]: Received disconnect from 118.45.184.98 port 33858:11: Bye Bye [preauth]
+Nov  7 20:56:28 scc-it120 sshd[153381]: Disconnected from invalid user ts 118.45.184.98 port 33858 [preauth]
+Nov  7 20:56:32 scc-it120 sshd[153377]: Connection closed by authenticating user root 65.0.107.119 port 37574 [preauth]
+Nov  7 20:56:34 scc-it120 sshd[153383]: Unable to negotiate with 119.193.97.24 port 45779: no matching host key type found. Their offer: ssh-rsa,ssh-dss [preauth]
+Nov  7 20:57:03 scc-it120 sshd[153385]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:57:05 scc-it120 sshd[153385]: Failed password for root from 65.0.107.119 port 44540 ssh2
+Nov  7 20:57:10 scc-it120 sshd[153385]: Connection closed by authenticating user root 65.0.107.119 port 44540 [preauth]
+Nov  7 20:57:28 scc-it120 sshd[153393]: Invalid user cron from 185.151.32.7 port 37751
+Nov  7 20:57:28 scc-it120 sshd[153393]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:57:28 scc-it120 sshd[153393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.151.32.7
+Nov  7 20:57:31 scc-it120 sshd[153393]: Failed password for invalid user cron from 185.151.32.7 port 37751 ssh2
+Nov  7 20:57:33 scc-it120 sshd[153393]: Received disconnect from 185.151.32.7 port 37751:11: Bye Bye [preauth]
+Nov  7 20:57:33 scc-it120 sshd[153393]: Disconnected from invalid user cron 185.151.32.7 port 37751 [preauth]
+Nov  7 20:57:46 scc-it120 sshd[153390]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:57:48 scc-it120 sshd[153390]: Failed password for root from 65.0.107.119 port 42204 ssh2
+Nov  7 20:57:53 scc-it120 sshd[153390]: Connection closed by authenticating user root 65.0.107.119 port 42204 [preauth]
+Nov  7 20:58:24 scc-it120 sshd[153399]: Invalid user wang from 118.45.184.98 port 49906
+Nov  7 20:58:24 scc-it120 sshd[153399]: pam_unix(sshd:auth): check pass; user unknown
+Nov  7 20:58:24 scc-it120 sshd[153399]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=118.45.184.98
+Nov  7 20:58:24 scc-it120 sshd[153396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:58:26 scc-it120 sshd[153399]: Failed password for invalid user wang from 118.45.184.98 port 49906 ssh2
+Nov  7 20:58:26 scc-it120 sshd[153396]: Failed password for root from 65.0.107.119 port 59554 ssh2
+Nov  7 20:58:26 scc-it120 sshd[153399]: Received disconnect from 118.45.184.98 port 49906:11: Bye Bye [preauth]
+Nov  7 20:58:26 scc-it120 sshd[153399]: Disconnected from invalid user wang 118.45.184.98 port 49906 [preauth]
+Nov  7 20:58:35 scc-it120 sshd[153396]: Connection closed by authenticating user root 65.0.107.119 port 59554 [preauth]
+Nov  7 20:59:00 scc-it120 sshd[153403]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:59:02 scc-it120 sshd[153403]: Failed password for root from 65.0.107.119 port 57402 ssh2
+Nov  7 20:59:10 scc-it120 sshd[153403]: Connection closed by authenticating user root 65.0.107.119 port 57402 [preauth]
+Nov  7 20:59:42 scc-it120 sshd[153418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=65.0.107.119  user=root
+Nov  7 20:59:44 scc-it120 sshd[153418]: Failed password for root from 65.0.107.119 port 56296 ssh2
+Nov  7 20:59:47 scc-it120 sshd[589]: Received signal 15; terminating.
+Nov  7 20:59:47 scc-it120 sshd[153427]: Server listening on 0.0.0.0 port 22.
+Nov  7 20:59:47 scc-it120 sshd[153427]: Server listening on :: port 22.
+Nov  7 20:59:49 scc-it120 sshd[153418]: Connection closed by authenticating user root 65.0.107.119 port 56296 [preauth]
+Nov  7 20:59:58 scc-it120 sshd[153430]: Accepted publickey for kit from 67.160.119.109 port 59137 ssh2: RSA SHA256:IQdd7CVQQFbPEXG+uLJ9SqIdplusp2YU5vU5NV/X4Rw
+Nov  7 20:59:58 scc-it120 sshd[153430]: pam_unix(sshd:session): session opened for user kit(uid=1003) by (uid=0)
+Nov  7 21:00:04 scc-it120 sshd[153486]: Received disconnect from 67.160.119.109 port 59137:11: disconnected by user
+Nov  7 21:00:04 scc-it120 sshd[153486]: Disconnected from user kit 67.160.119.109 port 59137
+Nov  7 21:00:04 scc-it120 systemd-logind[577]: Session 1608 logged out. Waiting for processes to exit.
+Nov  7 21:00:04 scc-it120 sshd[153430]: pam_unix(sshd:session): session closed for user kit
+Nov  7 21:00:04 scc-it120 systemd-logind[577]: Removed session 1608.
+Nov  7 21:00:09 scc-it120 sshd[153499]: Invalid user xxxkit from 67.160.119.109 port 59138
+Nov  7 21:00:09 scc-it120 sshd[153499]: Connection closed by invalid user xxxkit 67.160.119.109 port 59138 [preauth]
+Nov  7 21:00:10 scc-it120 sshd[153428]: Connection closed by authenticating user root 65.0.107.119 port 42906 [preauth]
+Nov  7 21:00:16 scc-it120 sshd[152903]: pam_unix(sshd:session): session closed for user ada
+Nov  7 21:00:16 scc-it120 systemd-logind[577]: Session 1603 logged out. Waiting for processes to exit.
+Nov  7 21:00:16 scc-it120 systemd-logind[577]: Removed session 1603.
+Nov  7 21:00:18 scc-it120 sshd[153507]: Received disconnect from 118.45.184.98 port 38074:11: Bye Bye [preauth]
+Nov  7 21:00:18 scc-it120 sshd[153507]: Disconnected from authenticating user postgres 118.45.184.98 port 38074 [preauth]
+Nov  7 21:00:26 scc-it120 sshd[153511]: Invalid user demo from 157.245.248.106 port 43076
+Nov  7 21:00:26 scc-it120 sshd[153511]: Received disconnect from 157.245.248.106 port 43076:11: Bye Bye [preauth]
+Nov  7 21:00:26 scc-it120 sshd[153511]: Disconnected from invalid user demo 157.245.248.106 port 43076 [preauth]
+Nov  7 21:00:32 scc-it120 sshd[153501]: userauth_pubkey: key type ssh-rsa not in PubkeyAcceptedAlgorithms [preauth]
+Nov  7 21:00:34 scc-it120 sshd[153501]: Connection closed by authenticating user root 65.0.107.119 port 56358 [preauth]
+Nov  7 21:00:38 scc-it120 sshd[153513]: Invalid user database from 185.151.32.7 port 52815
+Nov  7 21:00:38 scc-it120 sshd[153513]: Received disconnect from 185.151.32.7 port 52815:11: Bye Bye [preauth]
+Nov  7 21:00:38 scc-it120 sshd[153513]: Disconnected from invalid user database 185.151.32.7 port 52815 [preauth]
+Nov  7 21:01:31 scc-it120 sshd[153518]: Received disconnect from 218.92.0.34 port 56609:11:  [preauth]
+Nov  7 21:01:31 scc-it120 sshd[153518]: Disconnected from authenticating user root 218.92.0.34 port 56609 [preauth]
+Nov  7 21:02:11 scc-it120 sshd[153523]: Invalid user test from 118.45.184.98 port 52328
+Nov  7 21:02:11 scc-it120 sshd[153523]: Received disconnect from 118.45.184.98 port 52328:11: Bye Bye [preauth]
+Nov  7 21:02:11 scc-it120 sshd[153523]: Disconnected from invalid user test 118.45.184.98 port 52328 [preauth]
+Nov  7 21:02:39 scc-it120 sshd[153526]: Invalid user dfk from 157.245.248.106 port 36558
+Nov  7 21:02:39 scc-it120 sshd[153526]: Received disconnect from 157.245.248.106 port 36558:11: Bye Bye [preauth]
+Nov  7 21:02:39 scc-it120 sshd[153526]: Disconnected from invalid user dfk 157.245.248.106 port 36558 [preauth]
+Nov  7 21:03:22 scc-it120 sshd[153427]: Received signal 15; terminating.
+Nov  7 21:03:22 scc-it120 sshd[153715]: Server listening on 0.0.0.0 port 22.
+Nov  7 21:03:22 scc-it120 sshd[153715]: Server listening on :: port 22.
+Nov  7 21:03:28 scc-it120 sshd[153766]: Invalid user b from 185.151.32.7 port 51240
+Nov  7 21:03:28 scc-it120 sshd[153766]: Received disconnect from 185.151.32.7 port 51240:11: Bye Bye [preauth]
+Nov  7 21:03:28 scc-it120 sshd[153766]: Disconnected from invalid user b 185.151.32.7 port 51240 [preauth]
+Nov  7 21:03:35 scc-it120 sshd[153773]: Invalid user xxxkit from 67.160.119.109 port 59150
+Nov  7 21:03:35 scc-it120 sshd[153773]: Connection closed by invalid user xxxkit 67.160.119.109 port 59150 [preauth]
+Nov  7 21:03:38 scc-it120 sshd[153777]: Invalid user xxxkit from 67.160.119.109 port 59151
+Nov  7 21:03:38 scc-it120 sshd[153777]: Connection closed by invalid user xxxkit 67.160.119.109 port 59151 [preauth]
+Nov  7 21:03:42 scc-it120 sshd[153779]: Accepted publickey for kit from 67.160.119.109 port 59152 ssh2: RSA SHA256:IQdd7CVQQFbPEXG+uLJ9SqIdplusp2YU5vU5NV/X4Rw
+Nov  7 21:03:42 scc-it120 sshd[153779]: pam_unix(sshd:session): session opened for user kit(uid=1003) by (uid=0)
+Nov  7 21:03:45 scc-it120 sshd[153835]: Received disconnect from 67.160.119.109 port 59152:11: disconnected by user
+Nov  7 21:03:45 scc-it120 sshd[153835]: Disconnected from user kit 67.160.119.109 port 59152
+Nov  7 21:03:45 scc-it120 systemd-logind[577]: Session 1609 logged out. Waiting for processes to exit.
+Nov  7 21:03:45 scc-it120 sshd[153779]: pam_unix(sshd:session): session closed for user kit
+Nov  7 21:03:45 scc-it120 systemd-logind[577]: Removed session 1609.
+Nov  7 21:03:57 scc-it120 sshd[151936]: pam_unix(sshd:session): session closed for user ada
+Nov  7 21:03:57 scc-it120 sshd[151936]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Nov  7 21:03:57 scc-it120 sshd[153190]: pam_unix(sshd:session): session closed for user kit
+Nov  7 21:03:57 scc-it120 sshd[153190]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Nov  7 21:03:57 scc-it120 sudo: pam_unix(sudo:session): session closed for user root
+Nov  7 21:04:17 scc-it120 sshd[589]: Server listening on 0.0.0.0 port 22.
+Nov  7 21:04:17 scc-it120 sshd[589]: Server listening on :: port 22.
+Nov  7 21:04:17 scc-it120 systemd-logind[577]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  7 21:04:17 scc-it120 systemd-logind[577]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Nov  7 21:04:17 scc-it120 systemd-logind[577]: New seat seat0.
+Nov  7 21:04:21 scc-it120 sshd[713]: Invalid user admin from 195.209.47.94 port 54899
+Nov  7 21:04:21 scc-it120 sshd[713]: Connection closed by invalid user admin 195.209.47.94 port 54899 [preauth]
+Nov  7 21:04:58 scc-it120 sshd[763]: Invalid user rebecca from 157.245.248.106 port 58926
+Nov  7 21:04:58 scc-it120 sshd[763]: Received disconnect from 157.245.248.106 port 58926:11: Bye Bye [preauth]
+Nov  7 21:04:58 scc-it120 sshd[763]: Disconnected from invalid user rebecca 157.245.248.106 port 58926 [preauth]
+Nov  7 21:05:01 scc-it120 CRON[765]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  7 21:05:01 scc-it120 CRON[765]: pam_unix(cron:session): session closed for user root
+Nov  7 21:05:54 scc-it120 sshd[770]: Invalid user amavis from 118.45.184.98 port 53442
+Nov  7 21:05:54 scc-it120 sshd[770]: Received disconnect from 118.45.184.98 port 53442:11: Bye Bye [preauth]
+Nov  7 21:05:54 scc-it120 sshd[770]: Disconnected from invalid user amavis 118.45.184.98 port 53442 [preauth]
+Nov  7 21:06:35 scc-it120 sshd[774]: Invalid user informix from 185.151.32.7 port 57382
+Nov  7 21:06:36 scc-it120 sshd[774]: Received disconnect from 185.151.32.7 port 57382:11: Bye Bye [preauth]
+Nov  7 21:06:36 scc-it120 sshd[774]: Disconnected from invalid user informix 185.151.32.7 port 57382 [preauth]
+Nov  7 21:07:15 scc-it120 sshd[778]: Invalid user riakcs from 157.245.248.106 port 37704
+Nov  7 21:07:15 scc-it120 sshd[778]: Received disconnect from 157.245.248.106 port 37704:11: Bye Bye [preauth]
+Nov  7 21:07:15 scc-it120 sshd[778]: Disconnected from invalid user riakcs 157.245.248.106 port 37704 [preauth]
+Nov  7 21:07:23 scc-it120 sshd[781]: Received disconnect from 180.101.88.197 port 54868:11:  [preauth]
+Nov  7 21:07:23 scc-it120 sshd[781]: Disconnected from authenticating user root 180.101.88.197 port 54868 [preauth]
+Nov  7 21:07:45 scc-it120 sshd[784]: Invalid user r from 118.45.184.98 port 35998
+Nov  7 21:07:46 scc-it120 sshd[784]: Received disconnect from 118.45.184.98 port 35998:11: Bye Bye [preauth]
+Nov  7 21:07:46 scc-it120 sshd[784]: Disconnected from invalid user r 118.45.184.98 port 35998 [preauth]
+Nov  7 21:07:54 scc-it120 sshd[786]: error: maximum authentication attempts exceeded for root from 220.88.142.41 port 37356 ssh2 [preauth]
+Nov  7 21:07:54 scc-it120 sshd[786]: Disconnecting authenticating user root 220.88.142.41 port 37356: Too many authentication failures [preauth]
+Nov  7 21:07:57 scc-it120 sshd[788]: error: maximum authentication attempts exceeded for root from 220.88.142.41 port 37984 ssh2 [preauth]
+Nov  7 21:07:57 scc-it120 sshd[788]: Disconnecting authenticating user root 220.88.142.41 port 37984: Too many authentication failures [preauth]
+Nov  7 21:08:00 scc-it120 sshd[790]: Received disconnect from 220.88.142.41 port 38578:11: disconnected by user [preauth]
+Nov  7 21:08:00 scc-it120 sshd[790]: Disconnected from authenticating user root 220.88.142.41 port 38578 [preauth]
+Nov  7 21:08:02 scc-it120 sshd[793]: Invalid user admin from 220.88.142.41 port 39214
+Nov  7 21:08:03 scc-it120 sshd[793]: error: maximum authentication attempts exceeded for invalid user admin from 220.88.142.41 port 39214 ssh2 [preauth]
+Nov  7 21:08:03 scc-it120 sshd[793]: Disconnecting invalid user admin 220.88.142.41 port 39214: Too many authentication failures [preauth]
+Nov  7 21:08:05 scc-it120 sshd[795]: Invalid user admin from 220.88.142.41 port 39842
+Nov  7 21:08:06 scc-it120 sshd[795]: error: maximum authentication attempts exceeded for invalid user admin from 220.88.142.41 port 39842 ssh2 [preauth]
+Nov  7 21:08:06 scc-it120 sshd[795]: Disconnecting invalid user admin 220.88.142.41 port 39842: Too many authentication failures [preauth]
+Nov  7 21:08:08 scc-it120 sshd[797]: Invalid user admin from 220.88.142.41 port 40460
+Nov  7 21:08:09 scc-it120 sshd[797]: Received disconnect from 220.88.142.41 port 40460:11: disconnected by user [preauth]
+Nov  7 21:08:09 scc-it120 sshd[797]: Disconnected from invalid user admin 220.88.142.41 port 40460 [preauth]
+Nov  7 21:08:10 scc-it120 sshd[799]: Invalid user oracle from 220.88.142.41 port 40966
+Nov  7 21:08:11 scc-it120 sshd[799]: error: maximum authentication attempts exceeded for invalid user oracle from 220.88.142.41 port 40966 ssh2 [preauth]
+Nov  7 21:08:11 scc-it120 sshd[799]: Disconnecting invalid user oracle 220.88.142.41 port 40966: Too many authentication failures [preauth]
+Nov  7 21:08:13 scc-it120 sshd[801]: Invalid user oracle from 220.88.142.41 port 41592
+Nov  7 21:08:14 scc-it120 sshd[801]: error: maximum authentication attempts exceeded for invalid user oracle from 220.88.142.41 port 41592 ssh2 [preauth]
+Nov  7 21:08:14 scc-it120 sshd[801]: Disconnecting invalid user oracle 220.88.142.41 port 41592: Too many authentication failures [preauth]
+Nov  7 21:08:16 scc-it120 sshd[805]: Accepted publickey for kit from 67.160.119.109 port 59156 ssh2: RSA SHA256:IQdd7CVQQFbPEXG+uLJ9SqIdplusp2YU5vU5NV/X4Rw
+Nov  7 21:08:16 scc-it120 sshd[803]: Invalid user oracle from 220.88.142.41 port 42256
+Nov  7 21:08:16 scc-it120 sshd[805]: pam_unix(sshd:session): session opened for user kit(uid=1003) by (uid=0)
+Nov  7 21:08:16 scc-it120 systemd: pam_unix(systemd-user:session): session opened for user kit(uid=1003) by (uid=0)
+Nov  7 21:08:17 scc-it120 sshd[803]: Received disconnect from 220.88.142.41 port 42256:11: disconnected by user [preauth]
+Nov  7 21:08:17 scc-it120 sshd[803]: Disconnected from invalid user oracle 220.88.142.41 port 42256 [preauth]
+Nov  7 21:08:19 scc-it120 sshd[835]: Invalid user usuario from 220.88.142.41 port 42846
+Nov  7 21:08:20 scc-it120 sshd[835]: error: maximum authentication attempts exceeded for invalid user usuario from 220.88.142.41 port 42846 ssh2 [preauth]
+Nov  7 21:08:20 scc-it120 sshd[835]: Disconnecting invalid user usuario 220.88.142.41 port 42846: Too many authentication failures [preauth]
+Nov  7 21:08:22 scc-it120 sshd[924]: Invalid user usuario from 220.88.142.41 port 43500
+Nov  7 21:08:23 scc-it120 sshd[831]: Received disconnect from 218.92.0.25 port 60345:11:  [preauth]
+Nov  7 21:08:23 scc-it120 sshd[831]: Disconnected from authenticating user root 218.92.0.25 port 60345 [preauth]
+Nov  7 21:08:23 scc-it120 sshd[924]: error: maximum authentication attempts exceeded for invalid user usuario from 220.88.142.41 port 43500 ssh2 [preauth]
+Nov  7 21:08:23 scc-it120 sshd[924]: Disconnecting invalid user usuario 220.88.142.41 port 43500: Too many authentication failures [preauth]
+Nov  7 21:08:25 scc-it120 sshd[926]: Invalid user usuario from 220.88.142.41 port 44210
+Nov  7 21:08:26 scc-it120 sshd[926]: Received disconnect from 220.88.142.41 port 44210:11: disconnected by user [preauth]
+Nov  7 21:08:26 scc-it120 sshd[926]: Disconnected from invalid user usuario 220.88.142.41 port 44210 [preauth]
+Nov  7 21:08:28 scc-it120 sshd[929]: Invalid user test from 220.88.142.41 port 44746
+Nov  7 21:08:29 scc-it120 sshd[929]: error: maximum authentication attempts exceeded for invalid user test from 220.88.142.41 port 44746 ssh2 [preauth]
+Nov  7 21:08:29 scc-it120 sshd[929]: Disconnecting invalid user test 220.88.142.41 port 44746: Too many authentication failures [preauth]
+Nov  7 21:08:30 scc-it120 sshd[931]: Invalid user test from 220.88.142.41 port 45382
+Nov  7 21:08:31 scc-it120 sshd[931]: error: maximum authentication attempts exceeded for invalid user test from 220.88.142.41 port 45382 ssh2 [preauth]
+Nov  7 21:08:31 scc-it120 sshd[931]: Disconnecting invalid user test 220.88.142.41 port 45382: Too many authentication failures [preauth]
+Nov  7 21:08:33 scc-it120 sshd[934]: Invalid user test from 220.88.142.41 port 45960
+Nov  7 21:08:34 scc-it120 sshd[934]: Received disconnect from 220.88.142.41 port 45960:11: disconnected by user [preauth]
+Nov  7 21:08:34 scc-it120 sshd[934]: Disconnected from invalid user test 220.88.142.41 port 45960 [preauth]
+Nov  7 21:08:36 scc-it120 sshd[936]: Invalid user user from 220.88.142.41 port 46484
+Nov  7 21:08:37 scc-it120 sshd[936]: error: maximum authentication attempts exceeded for invalid user user from 220.88.142.41 port 46484 ssh2 [preauth]
+Nov  7 21:08:37 scc-it120 sshd[936]: Disconnecting invalid user user 220.88.142.41 port 46484: Too many authentication failures [preauth]
+Nov  7 21:08:39 scc-it120 sshd[938]: Invalid user user from 220.88.142.41 port 47072
+Nov  7 21:08:40 scc-it120 sshd[938]: error: maximum authentication attempts exceeded for invalid user user from 220.88.142.41 port 47072 ssh2 [preauth]
+Nov  7 21:08:40 scc-it120 sshd[938]: Disconnecting invalid user user 220.88.142.41 port 47072: Too many authentication failures [preauth]
+Nov  7 21:08:42 scc-it120 sshd[941]: Invalid user user from 220.88.142.41 port 47636
+Nov  7 21:08:42 scc-it120 sshd[941]: Received disconnect from 220.88.142.41 port 47636:11: disconnected by user [preauth]
+Nov  7 21:08:42 scc-it120 sshd[941]: Disconnected from invalid user user 220.88.142.41 port 47636 [preauth]
+Nov  7 21:08:44 scc-it120 sshd[943]: Invalid user ftpuser from 220.88.142.41 port 48190
+Nov  7 21:08:45 scc-it120 sshd[943]: error: maximum authentication attempts exceeded for invalid user ftpuser from 220.88.142.41 port 48190 ssh2 [preauth]
+Nov  7 21:08:45 scc-it120 sshd[943]: Disconnecting invalid user ftpuser 220.88.142.41 port 48190: Too many authentication failures [preauth]
+Nov  7 21:08:47 scc-it120 sshd[945]: Invalid user ftpuser from 220.88.142.41 port 48774
+Nov  7 21:08:48 scc-it120 sshd[945]: error: maximum authentication attempts exceeded for invalid user ftpuser from 220.88.142.41 port 48774 ssh2 [preauth]
+Nov  7 21:08:48 scc-it120 sshd[945]: Disconnecting invalid user ftpuser 220.88.142.41 port 48774: Too many authentication failures [preauth]
+Nov  7 21:08:50 scc-it120 sshd[947]: Invalid user ftpuser from 220.88.142.41 port 49356
+Nov  7 21:08:51 scc-it120 sshd[947]: Received disconnect from 220.88.142.41 port 49356:11: disconnected by user [preauth]
+Nov  7 21:08:51 scc-it120 sshd[947]: Disconnected from invalid user ftpuser 220.88.142.41 port 49356 [preauth]
+Nov  7 21:08:52 scc-it120 sshd[949]: Invalid user test1 from 220.88.142.41 port 49856
+Nov  7 21:08:53 scc-it120 sshd[949]: error: maximum authentication attempts exceeded for invalid user test1 from 220.88.142.41 port 49856 ssh2 [preauth]
+Nov  7 21:08:53 scc-it120 sshd[949]: Disconnecting invalid user test1 220.88.142.41 port 49856: Too many authentication failures [preauth]
+Nov  7 21:08:55 scc-it120 sshd[951]: Invalid user test1 from 220.88.142.41 port 50434
+Nov  7 21:08:56 scc-it120 sshd[951]: error: maximum authentication attempts exceeded for invalid user test1 from 220.88.142.41 port 50434 ssh2 [preauth]
+Nov  7 21:08:56 scc-it120 sshd[951]: Disconnecting invalid user test1 220.88.142.41 port 50434: Too many authentication failures [preauth]
+Nov  7 21:08:58 scc-it120 sshd[953]: Invalid user test1 from 220.88.142.41 port 51136
+Nov  7 21:08:59 scc-it120 sshd[953]: Received disconnect from 220.88.142.41 port 51136:11: disconnected by user [preauth]
+Nov  7 21:08:59 scc-it120 sshd[953]: Disconnected from invalid user test1 220.88.142.41 port 51136 [preauth]
+Nov  7 21:09:01 scc-it120 sshd[959]: Invalid user test2 from 220.88.142.41 port 51686
+Nov  7 21:09:02 scc-it120 sshd[959]: error: maximum authentication attempts exceeded for invalid user test2 from 220.88.142.41 port 51686 ssh2 [preauth]
+Nov  7 21:09:02 scc-it120 sshd[959]: Disconnecting invalid user test2 220.88.142.41 port 51686: Too many authentication failures [preauth]
+Nov  7 21:09:04 scc-it120 sshd[966]: Invalid user test2 from 220.88.142.41 port 52288
+Nov  7 21:09:05 scc-it120 sshd[966]: error: maximum authentication attempts exceeded for invalid user test2 from 220.88.142.41 port 52288 ssh2 [preauth]
+Nov  7 21:09:05 scc-it120 sshd[966]: Disconnecting invalid user test2 220.88.142.41 port 52288: Too many authentication failures [preauth]
+Nov  7 21:09:07 scc-it120 sshd[969]: Invalid user test2 from 220.88.142.41 port 52882
+Nov  7 21:09:08 scc-it120 sshd[969]: Received disconnect from 220.88.142.41 port 52882:11: disconnected by user [preauth]
+Nov  7 21:09:08 scc-it120 sshd[969]: Disconnected from invalid user test2 220.88.142.41 port 52882 [preauth]
+Nov  7 21:09:09 scc-it120 sshd[971]: Invalid user contador from 220.88.142.41 port 53440
+Nov  7 21:09:10 scc-it120 sshd[971]: Received disconnect from 220.88.142.41 port 53440:11: disconnected by user [preauth]
+Nov  7 21:09:10 scc-it120 sshd[971]: Disconnected from invalid user contador 220.88.142.41 port 53440 [preauth]
+Nov  7 21:09:13 scc-it120 sshd[974]: error: maximum authentication attempts exceeded for ubuntu from 220.88.142.41 port 53924 ssh2 [preauth]
+Nov  7 21:09:13 scc-it120 sshd[974]: Disconnecting authenticating user ubuntu 220.88.142.41 port 53924: Too many authentication failures [preauth]
+Nov  7 21:09:16 scc-it120 sshd[978]: error: maximum authentication attempts exceeded for ubuntu from 220.88.142.41 port 54584 ssh2 [preauth]
+Nov  7 21:09:16 scc-it120 sshd[978]: Disconnecting authenticating user ubuntu 220.88.142.41 port 54584: Too many authentication failures [preauth]
+Nov  7 21:09:18 scc-it120 sshd[980]: Received disconnect from 220.88.142.41 port 55244:11: disconnected by user [preauth]
+Nov  7 21:09:18 scc-it120 sshd[980]: Disconnected from authenticating user ubuntu 220.88.142.41 port 55244 [preauth]
+Nov  7 21:09:20 scc-it120 sshd[983]: Invalid user pi from 220.88.142.41 port 55704
+Nov  7 21:09:21 scc-it120 sshd[983]: Received disconnect from 220.88.142.41 port 55704:11: disconnected by user [preauth]
+Nov  7 21:09:21 scc-it120 sshd[983]: Disconnected from invalid user pi 220.88.142.41 port 55704 [preauth]
+Nov  7 21:09:22 scc-it120 sshd[987]: Invalid user baikal from 220.88.142.41 port 56228
+Nov  7 21:09:22 scc-it120 sshd[987]: Received disconnect from 220.88.142.41 port 56228:11: disconnected by user [preauth]
+Nov  7 21:09:22 scc-it120 sshd[987]: Disconnected from invalid user baikal 220.88.142.41 port 56228 [preauth]
+Nov  7 21:09:33 scc-it120 sshd[989]: Invalid user gavrilov from 157.245.248.106 port 59648
+Nov  7 21:09:33 scc-it120 sshd[989]: Received disconnect from 157.245.248.106 port 59648:11: Bye Bye [preauth]
+Nov  7 21:09:33 scc-it120 sshd[989]: Disconnected from invalid user gavrilov 157.245.248.106 port 59648 [preauth]
+Nov  7 21:09:40 scc-it120 sshd[992]: Invalid user nginx from 118.45.184.98 port 47874
+Nov  7 21:09:40 scc-it120 sshd[992]: Received disconnect from 118.45.184.98 port 47874:11: Bye Bye [preauth]
+Nov  7 21:09:40 scc-it120 sshd[992]: Disconnected from invalid user nginx 118.45.184.98 port 47874 [preauth]
+Nov  7 21:09:54 scc-it120 sshd[996]: Invalid user image from 185.151.32.7 port 43350
+Nov  7 21:09:54 scc-it120 sshd[996]: Received disconnect from 185.151.32.7 port 43350:11: Bye Bye [preauth]
+Nov  7 21:09:54 scc-it120 sshd[996]: Disconnected from invalid user image 185.151.32.7 port 43350 [preauth]
+Nov  7 21:11:35 scc-it120 sshd[1008]: Invalid user sftp from 118.45.184.98 port 60156
+Nov  7 21:11:35 scc-it120 sshd[1008]: Received disconnect from 118.45.184.98 port 60156:11: Bye Bye [preauth]
+Nov  7 21:11:35 scc-it120 sshd[1008]: Disconnected from invalid user sftp 118.45.184.98 port 60156 [preauth]
+Nov  7 21:11:51 scc-it120 sshd[1011]: Invalid user svnuser from 157.245.248.106 port 53862
+Nov  7 21:11:51 scc-it120 sshd[1011]: Received disconnect from 157.245.248.106 port 53862:11: Bye Bye [preauth]
+Nov  7 21:11:51 scc-it120 sshd[1011]: Disconnected from invalid user svnuser 157.245.248.106 port 53862 [preauth]
+Nov  7 21:12:31 scc-it120 sudo:      kit : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/bin/bash
+Nov  7 21:12:31 scc-it120 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kit(uid=1003)
+Nov  7 21:12:33 scc-it120 sshd[1026]: Invalid user adminmous from 104.223.20.201 port 64698
+Nov  7 21:12:33 scc-it120 sshd[1026]: Connection closed by invalid user adminmous 104.223.20.201 port 64698 [preauth]
+Nov  7 21:12:34 scc-it120 sshd[1029]: Invalid user activemq from 104.223.20.201 port 8816
+Nov  7 21:12:34 scc-it120 sshd[1029]: Connection closed by invalid user activemq 104.223.20.201 port 8816 [preauth]
+Nov  7 21:12:38 scc-it120 sshd[1031]: Invalid user vyos from 104.223.20.201 port 23222
+Nov  7 21:12:38 scc-it120 sshd[1031]: Connection closed by invalid user vyos 104.223.20.201 port 23222 [preauth]
+Nov  7 21:12:41 scc-it120 sshd[1034]: Invalid user user from 104.223.20.201 port 34600
+Nov  7 21:12:42 scc-it120 sshd[1034]: Connection closed by invalid user user 104.223.20.201 port 34600 [preauth]
+Nov  7 21:12:44 scc-it120 sshd[1037]: Invalid user config from 104.223.20.201 port 42648
+Nov  7 21:12:44 scc-it120 sshd[1037]: Connection closed by invalid user config 104.223.20.201 port 42648 [preauth]
+Nov  7 21:12:47 scc-it120 sshd[1040]: Invalid user admin from 104.223.20.201 port 50316
+Nov  7 21:12:48 scc-it120 sshd[1040]: Connection closed by invalid user admin 104.223.20.201 port 50316 [preauth]
+Nov  7 21:12:53 scc-it120 sudo: pam_unix(sudo:session): session closed for user root
+Nov  7 21:12:55 scc-it120 sshd[1042]: Invalid user operator from 104.223.20.201 port 60902
+Nov  7 21:12:55 scc-it120 sshd[1042]: Connection closed by invalid user operator 104.223.20.201 port 60902 [preauth]
+Nov  7 21:13:10 scc-it120 sshd[1056]: Invalid user vagrant from 185.151.32.7 port 37185
+Nov  7 21:13:10 scc-it120 sshd[1056]: Received disconnect from 185.151.32.7 port 37185:11: Bye Bye [preauth]
+Nov  7 21:13:10 scc-it120 sshd[1056]: Disconnected from invalid user vagrant 185.151.32.7 port 37185 [preauth]
+Nov  7 21:13:28 scc-it120 sshd[1070]: Invalid user tgipl66 from 118.45.184.98 port 50276
+Nov  7 21:13:28 scc-it120 sshd[1070]: Received disconnect from 118.45.184.98 port 50276:11: Bye Bye [preauth]
+Nov  7 21:13:28 scc-it120 sshd[1070]: Disconnected from invalid user tgipl66 118.45.184.98 port 50276 [preauth]
+Nov  7 21:14:07 scc-it120 sshd[1111]: Invalid user administrador from 157.245.248.106 port 48958
+Nov  7 21:14:07 scc-it120 sshd[1111]: Received disconnect from 157.245.248.106 port 48958:11: Bye Bye [preauth]
+Nov  7 21:14:07 scc-it120 sshd[1111]: Disconnected from invalid user administrador 157.245.248.106 port 48958 [preauth]
+Nov  7 21:14:08 scc-it120 sudo:      kit : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/bash
+Nov  7 21:14:08 scc-it120 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kit(uid=1003)
