@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   jenkins:
-  build:
-    context: ..
-    dockerfile: .devcontainer/Dockerfile.jenkins
-  volumes:
-    - ../..:/workspaces:cached
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile.jenkins
+    volumes:
+      - ../..:/workspaces:cached
