@@ -1,5 +1,5 @@
 {
-  "name": "Basic Jenkins CI",
+"name": "Basic Jenkins CI",
 "dockerComposeFile": "docker-compose.yml",
 "service": "jenkins",
 "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
